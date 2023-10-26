@@ -1,0 +1,15 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	p5_EKDN230020290-1A_HFC7FDSX7_L2_2	/home/karolina.koronska/wyniki/p5_EKDN230020290-1A_HFC7FDSX7_L2_2_fastqc.zip
+FastQC	all_sections	p4_EKDN230020289-1A_HF7WWDSX7_L3_1	/home/karolina.koronska/wyniki/p4_EKDN230020289-1A_HF7WWDSX7_L3_1_fastqc.zip
+FastQC	all_sections	p1_EKDN230020286-1A_HFCFGDSX7_L4_2	/home/karolina.koronska/wyniki/p1_EKDN230020286-1A_HFCFGDSX7_L4_2_fastqc.zip
+FastQC	all_sections	p1_EKDN230020286-1A_HFCFGDSX7_L4_1	/home/karolina.koronska/wyniki/p1_EKDN230020286-1A_HFCFGDSX7_L4_1_fastqc.zip
+FastQC	all_sections	p4_EKDN230020289-1A_HF7WWDSX7_L3_2	/home/karolina.koronska/wyniki/p4_EKDN230020289-1A_HF7WWDSX7_L3_2_fastqc.zip
+FastQC	all_sections	p4_EKDN230020289-1A_HFC7FDSX7_L2_1	/home/karolina.koronska/wyniki/p4_EKDN230020289-1A_HFC7FDSX7_L2_1_fastqc.zip
+FastQC	all_sections	p3_EKDN230020288-1A_HFC7FDSX7_L2_1	/home/karolina.koronska/wyniki/p3_EKDN230020288-1A_HFC7FDSX7_L2_1_fastqc.zip
+FastQC	all_sections	p3_EKDN230020288-1A_HFC7FDSX7_L2_2	/home/karolina.koronska/wyniki/p3_EKDN230020288-1A_HFC7FDSX7_L2_2_fastqc.zip
+FastQC	all_sections	p6_EKDN230020291-1A_HFC7FDSX7_L2_1	/home/karolina.koronska/wyniki/p6_EKDN230020291-1A_HFC7FDSX7_L2_1_fastqc.zip
+FastQC	all_sections	p4_EKDN230020289-1A_HFC7FDSX7_L2_2	/home/karolina.koronska/wyniki/p4_EKDN230020289-1A_HFC7FDSX7_L2_2_fastqc.zip
+FastQC	all_sections	p2_EKDN230020287-1A_HFCFGDSX7_L4_2	/home/karolina.koronska/wyniki/p2_EKDN230020287-1A_HFCFGDSX7_L4_2_fastqc.zip
+FastQC	all_sections	p2_EKDN230020287-1A_HFCFGDSX7_L4_1	/home/karolina.koronska/wyniki/p2_EKDN230020287-1A_HFCFGDSX7_L4_1_fastqc.zip
+FastQC	all_sections	p6_EKDN230020291-1A_HFC7FDSX7_L2_2	/home/karolina.koronska/wyniki/p6_EKDN230020291-1A_HFC7FDSX7_L2_2_fastqc.zip
+FastQC	all_sections	p5_EKDN230020290-1A_HFC7FDSX7_L2_1	/home/karolina.koronska/wyniki/p5_EKDN230020290-1A_HFC7FDSX7_L2_1_fastqc.zip
