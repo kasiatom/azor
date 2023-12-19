@@ -8,7 +8,7 @@ REF="$HOME/genome/scer.fa"
 for fq1 in $HOME/seq/odczyty/p*_1.fq.gz ## szukam tylko fastq1
 do
 
-   fq2=$(echo $fq1 | sed 's/_1.fq.gz/_2.fq.gz/') ## tu dodaję mu fastq2
+   fq2=$(echo $fq1 | sed 's/_1.fq.gz/_2.fq.gz/') ## tu dodaję mu odpowiedni fastq2
    ID=$(basename $fq1 | cut -f1 -d '_')  ## tu znajduję, jakie p dla danej pary fastq                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              /')
 
      
