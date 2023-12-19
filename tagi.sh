@@ -5,14 +5,14 @@ set -e -o pipefail
 ## align reads
 REF="$HOME/genome/scer.fa"
 
-for fq1 in $HOME/seq/odczyty/p*.fq.gz
+for fq1 in $HOME/seq/odczyty/p*_1.fq.gz ## szukam tylko fastq1
 do
- do
-   fq2=$(echo $fq1 | sed 's/_1.fq.gz/_2.fq.gz/')
-   # ID=$(basename $fq1 | sed 's/_1.fq.gz/)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            /')
 
-   ID=p$i
-   echo mapuje $ID
+   fq2=$(echo $fq1 | sed 's/_1.fq.gz/_2.fq.gz/') ## tu dodaję mu fastq2
+   ID=$(basename $fq1 | cut -f1 -d '_')  ## tu znajduję, jakie p dla danej pary fastq                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              /')
+
+     
+   echo mapuje "$ID"
    
 
    # wymyślić tak, żeby ID było sensowne a nie długie jak cholera
@@ -35,7 +35,7 @@ do
    
 
       ## mark duplicated reads
-    echo zaznaczam duplikaty $ID
+    echo zaznaczam duplikaty "$ID"
     gatk MarkDuplicates \
        -I $HOME/seq/tagi/"$ID"_bwa-unsorted.sam \
        -O $HOME/seq/tagi/"$ID"_bwa-markdup-unsorted.bam \
@@ -53,5 +53,5 @@ do
 
  done  
 
-done
+
 echo swietna robota :D
