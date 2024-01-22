@@ -138,3 +138,13 @@ vep --cache --offline --format vcf --vcf --force_overwrite \
  echo gotowe 3
 
  bcftools filter -i 'GT[@samples.txt]="alt" & (INFO/CSQ~"HIGHT" | INFO/CSQ~"MODERATE")' wyniki3/pro.vcf.gz -o wyniki3/warianty.vcf
+
+ #tworzenie tabeli
+ paste \
+<(printf "t,CHROM\t,POS\t,REF\t,ALT\t,QUAL\t,TYPE\t,VEP\n") \
+<(bcftools view -h $HOME/wyniki3/warianty.vcf | tail -1 | cut -f10- | sed 's/\t/_GT\t/g' | sed 's/$/_GT/') \
+<(bcftools view -h $HOME/wyniki3/warianty.vcf | tail -1 | cut -f10- | sed 's/\t/_DP\t/g' | sed 's/$/_DP/') \
+<(bcftools view -h $HOME/wyniki3/warianty.vcf | tail -1 | cut -f10- | sed 's/\t/_AD\t/g' | sed 's/$/_AD/') > $HOME/wyniki3/header
+bcftools query -f "%CHROM\t,%POS\t,%REF\t,%ALT\t,%QUAL\t,%INFO/QA\t,%INFO/TYPE\t,%INFO/CSQ[\t,%GT][\t,%DP][\t,%AD]\n" $HOME/wyniki3/warianty.vcf \
+| sed 's/,/;/g' > $HOME/wyniki3/tabela3.tmp.csv
+cat $HOME/wyniki3/header $HOME/wyniki3/tabela3.tmp.csv > $HOME/tabela3.csv
