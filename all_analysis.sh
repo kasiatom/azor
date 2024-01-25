@@ -143,7 +143,7 @@ vep --cache --offline --format vcf --vcf --force_overwrite \
 
  #bcftools filter -i 'GT[index_BY_a ]="mis" & GT[index_BY_alpha]="mis" &(INFO/CSQ~"HIGH" | INFO/CSQ~"MODERATE")' wyniki3/pro.vcf.gz -o wyniki3/warianty.vcf
 bcftools filter -i 'GT[6]="mis" & (INFO/CSQ~"HIGH" | INFO/CSQ~"MODERATE")' wyniki3/pro.vcf.gz \
-| bcftools filter -i 'GT[6]="mis" & (INFO/CSQ~"HIGH" | INFO/CSQ~"MODERATE")' -o wyniki3/warianty.vcf
+| bcftools filter -i 'GT[7]="mis" & (INFO/CSQ~"HIGH" | INFO/CSQ~"MODERATE")' -o wyniki3/warianty.vcf
 
  #tworzenie tabeli, powywalałam te przecinki, albo \t albo , => zostawmy tab i plik tsv
  paste \
