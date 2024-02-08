@@ -151,6 +151,6 @@ bcftools filter -i 'GT[6]="mis" & (INFO/CSQ~"HIGH" | INFO/CSQ~"MODERATE")' wynik
 <(bcftools view -h $HOME/wyniki3/warianty.vcf | tail -1 | cut -f10- | sed 's/\t/_GT\t/g' | sed 's/$/_GT/') \
 <(bcftools view -h $HOME/wyniki3/warianty.vcf | tail -1 | cut -f10- | sed 's/\t/_DP\t/g' | sed 's/$/_DP/') \
 <(bcftools view -h $HOME/wyniki3/warianty.vcf | tail -1 | cut -f10- | sed 's/\t/_AD\t/g' | sed 's/$/_AD/') > $HOME/wyniki3/header
-bcftools query -f "%CHROM\t%POS\t%REF\t%ALT\t%QUAL\t%INFO/QA\t%INFO/TYPE\t%INFO/CSQ[\t%GT][\t%DP][\t%AD]\n" $HOME/wyniki3/warianty.vcf \
+bcftools query -f "%CHROM\t%POS\t%REF\t%ALT\t%QUAL\t%INFO/TYPE\t%INFO/CSQ[\t%GT][\t%DP][\t%AD]\n" $HOME/wyniki3/warianty.vcf \
 | sed 's/,/;/g' > $HOME/wyniki3/tabela3.tmp.tsv
 cat $HOME/wyniki3/header $HOME/wyniki3/tabela3.tmp.tsv > $HOME/tabela3.tsv
