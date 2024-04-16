@@ -154,3 +154,22 @@ bcftools filter -i 'GT[6]="mis" & (INFO/CSQ~"HIGH" | INFO/CSQ~"MODERATE")' wynik
 bcftools query -f "%CHROM\t%POS\t%REF\t%ALT\t%QUAL\t%INFO/TYPE\t%INFO/CSQ[\t%GT][\t%DP][\t%AD]\n" $HOME/wyniki3/warianty.vcf \
 | sed 's/,/;/g' > $HOME/wyniki3/tabela3.tmp.tsv
 cat $HOME/wyniki3/header $HOME/wyniki3/tabela3.tmp.tsv > $HOME/tabela3.tsv
+
+cd wyniki
+for pr in S*_bwa-markdup.bam;
+do
+./mosdepth --by 500 -t4 -n -Q 1  -m depth_$pr $pr 
+done
+for pr in p*_bwa-markdup.bam;
+do
+ zcat depth_$pr.regions.bed.gz > depth_$pr.regions.bed 
+done
+cd wyniki
+for pr in S*_bwa-markdup.bam;
+do
+./mosdepth --by 500 -t4 -n -Q 1  -m depth_$pr $pr 
+done
+for pr in S*_bwa-markdup.bam;
+do
+ zcat depth_$pr.regions.bed.gz > depth_$pr.regions.bed 
+done
