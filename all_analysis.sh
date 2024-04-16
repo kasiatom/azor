@@ -20,9 +20,7 @@ do
   RG_SM="$ID" 
   RG_PL="ILLUMINA" 
 
-
-
-  bwa mem \
+ bwa mem \
           -t 10 \
           -R "@RG\tID:""$RG_ID""\tPU:""$RG_PU""\tPL:""$RG_PL""\tLB:""$RG_LB""\tSM:""$RG_SM" \
           -K 100000000 -v 3 -Y  \
@@ -91,7 +89,7 @@ do
 done
 echo gotowe 2
 
-## trzeba zaktywować środowisko bio
+## należy zaktywować środowisko bio
 
 for ba in $HOME/wyniki/S*.bam
 do
@@ -137,15 +135,10 @@ vep --cache --offline --format vcf --vcf --force_overwrite \
  --output_file $HOME/wyniki3/pro.vcf.gz
  echo gotowe 3
 
-## to filtrowanie z pliku nie działa, zróbmy tak
-## sprawdza Pani w pliku vcf indeksy szczepów sprzed ewolucji (0-based), patrząc na wynikową tabelę to powinno być 6 i 7
-## wtedy chcemu tylko te linie, gdzie te szczepy mają genotyp .
-
  #bcftools filter -i 'GT[index_BY_a ]="mis" & GT[index_BY_alpha]="mis" &(INFO/CSQ~"HIGH" | INFO/CSQ~"MODERATE")' wyniki3/pro.vcf.gz -o wyniki3/warianty.vcf
 bcftools filter -i 'GT[6]="mis" & (INFO/CSQ~"HIGH" | INFO/CSQ~"MODERATE")' wyniki3/pro.vcf.gz \
 | bcftools filter -i 'GT[7]="mis" & (INFO/CSQ~"HIGH" | INFO/CSQ~"MODERATE")' -o wyniki3/warianty.vcf
 
- #tworzenie tabeli, powywalałam te przecinki, albo \t albo , => zostawmy tab i plik tsv
  paste \
 <(printf "CHROM\tPOS\tREF\tALT\tQUAL\tTYPE\tVEP\n") \
 <(bcftools view -h $HOME/wyniki3/warianty.vcf | tail -1 | cut -f10- | sed 's/\t/_GT\t/g' | sed 's/$/_GT/') \
@@ -155,6 +148,7 @@ bcftools query -f "%CHROM\t%POS\t%REF\t%ALT\t%QUAL\t%INFO/TYPE\t%INFO/CSQ[\t%GT]
 | sed 's/,/;/g' > $HOME/wyniki3/tabela3.tmp.tsv
 cat $HOME/wyniki3/header $HOME/wyniki3/tabela3.tmp.tsv > $HOME/tabela3.tsv
 
+##dodatkowo obliczanie głębokości pokrycia
 cd wyniki
 for pr in S*_bwa-markdup.bam;
 do
