@@ -1,0 +1,113 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uwops05 proteins
+           5,129 sequences; 2,676,354 total letters
+
+
+
+Query= FLO11 YIR019C SGDID:S000001458
+
+Length=1368
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+g4774.t1 unnamed protein product                                      541        2e-172
+g477.t1 unnamed protein product                                       352        5e-101
+
+
+>g4774.t1 unnamed protein product
+Length=1094
+
+ Score = 541 bits (1395),  Expect = 2e-172, Method: Compositional matrix adjust.
+ Identities = 376/380 (99%), Positives = 378/380 (99%), Gaps = 0/380 (0%)
+
+Query  987   VCSTGTNSAGETTSGCSPKTITTTVPCSTSPSETASESTTTSPTTPVTTVVSTTVVTTEY  1046
+             VC TGTNSAGETTSGCSPKTITTTVPCSTSPSETASESTTTSPTTPVTTVVSTTVVTTEY
+Sbjct  714   VCFTGTNSAGETTSGCSPKTITTTVPCSTSPSETASESTTTSPTTPVTTVVSTTVVTTEY  773
+
+Query  1047  STSTKPGGEITTTFVTKNIPTTYLTTIAPTPSVTTVTNFTPTTITTTVCSTGTNSAGETT  1106
+             STSTKPGGEITTTFVTKNIPTTYLTTIAPTPSVTTVTNFTPTTITTTVCSTGTNSAGETT
+Sbjct  774   STSTKPGGEITTTFVTKNIPTTYLTTIAPTPSVTTVTNFTPTTITTTVCSTGTNSAGETT  833
+
+Query  1107  SGCSPKTVTTTVPCSTGTGEYTTEATTLVTTAVTTTVVTTESSTGTNSAGKTTTGYTTKS  1166
+             SGCSPKTVTTTVPCSTGTGEYTTEATT VTTAVTTTVVTTESSTGTNSAGKTTTGYTTKS
+Sbjct  834   SGCSPKTVTTTVPCSTGTGEYTTEATTPVTTAVTTTVVTTESSTGTNSAGKTTTGYTTKS  893
+
+Query  1167  VPTTYVTTLAPSAPVTPATNAVPTTITTTECSAATNAAGETTSVCSAKTIVSSASAGENT  1226
+             VPTTYVTTLAPSAPVTPATNAVPTTITTTECSAATNAAGETTSVCSAKTIVSSASAGENT
+Sbjct  894   VPTTYVTTLAPSAPVTPATNAVPTTITTTECSAATNAAGETTSVCSAKTIVSSASAGENT  953
+
+Query  1227  APSATTPVTTAIPTTVITTESSVGTNSAGETTTGYTTKSIPTTYITTLIPGSNGAKNYET  1286
+             APSATTPVTTAIPTTV+TTESSVGTNSAGETTTGYTTKSIPTTYITTLIPGSNGAKNYET
+Sbjct  954   APSATTPVTTAIPTTVVTTESSVGTNSAGETTTGYTTKSIPTTYITTLIPGSNGAKNYET  1013
+
+Query  1287  VATATNPISIKTTSQLATTASASSVAPVVTSPSLTGPLQSASGSAVATYSVPSISSTYQG  1346
+             VATATNPISIKTTSQLATTASASS+APVVTSPSLTGPLQSASGSAVATYSVPSISSTYQG
+Sbjct  1014  VATATNPISIKTTSQLATTASASSMAPVVTSPSLTGPLQSASGSAVATYSVPSISSTYQG  1073
+
+Query  1347  AANIKVLGNFMWLLLALPVV  1366
+             AANIKVLGNFMWLLLALPVV
+Sbjct  1074  AANIKVLGNFMWLLLALPVV  1093
+
+
+>g477.t1 unnamed protein product
+Length=1532
+
+ Score = 352 bits (904),  Expect = 5e-101, Method: Compositional matrix adjust.
+ Identities = 137/211 (65%), Positives = 156/211 (74%), Gaps = 4/211 (2%)
+
+Query  2    QRPFLLAYLVL--SLLFNSALG--FPTALVPRGSSEGTSCNSIVNGCPNLDFNWHMDQQN  57
+             R  L+++ +L  +LL NSA        + P         +  +NGCPNLDFNWHM QQN
+Sbjct  1    MRKLLISFCLLFAALLTNSATADRIDDKVSPSFDLSKRDESVAINGCPNLDFNWHMSQQN  60
+
+Query  58   IMQYTLDVTSVSWVQDNTYQITIHVKGKENIDLKYLWSLKIIGVTGPKGTVQLYGYNENT  117
+            I+ Y +DVTSVSWV+DNTYQITIHVK  ++I LKYLWSLKIIGV GP  TVQLYG NE T
+Sbjct  61   ILHYDMDVTSVSWVKDNTYQITIHVKAVKDIPLKYLWSLKIIGVNGPSSTVQLYGKNEKT  120
+
+Query  118  YLIDNPTDFTATFEVYATQDVNSCQVWMPNFQIQFEYLQGSAAQYASSWQWGTTSFDLST  177
+            YLI +PTDFT+TF+VYA    + C VWMPNFQIQFEYLQG AAQY  +WQWGTT+FDLST
+Sbjct  121  YLISDPTDFTSTFQVYAYPSSDGCTVWMPNFQIQFEYLQGDAAQYWQTWQWGTTTFDLST  180
+
+Query  178  GCNNYDNQGHSQTDFPGFYWNIDCDNNCGGT  208
+            GCNNYDNQGHSQTDFPGFYW   C  N  GT
+Sbjct  181  GCNNYDNQGHSQTDFPGFYWTYQCKGNNDGT  211
+
+
+
+Lambda      K        H        a         alpha
+   0.293    0.105    0.278    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2734597775
+
+
+  Database: uwops05 proteins
+    Posted date:  Mar 13, 2024  7:57 PM
+  Number of letters in database: 2,676,354
+  Number of sequences in database:  5,129
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,712 @@
+########################################
+# Program: needle
+# Rundate: Tue 26 Mar 2024 12:04:40
+# Commandline: needle
+#    -asequence flo1_uwops05.fa
+#    -bsequence s4.txt
+#    -outfile s4.needle
+# Align_format: srspair
+# Report_file: s4.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: flo1_uwops05
+# 2: 
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8459
+# Identity:      20/8459 ( 0.2%)
+# Similarity:    20/8459 ( 0.2%)
+# Gaps:        8439/8459 (99.8%)
+# Score: 100.0
+# 
+#
+#=======================================
+
+flo1_uwops05       1 AACAGGcgtttttttatttagtAAAGCATCATATTACCTAAGCGCCACTT     50
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05      51 TGCTTGACGTTAGTaacaaaaatgatgaaattgtAATAGAAGAAACTTTC    100
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     101 ATCCGCAAACTATTGAGGTACTATGCTAGTCCGTCTCAAGCTGTTTGATG    150
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     151 CAAGAGAACGTTCAACTCAATTTCCGGCTAGTACGCCACTTTTCCTACGG    200
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     201 TGGCTTCGCAGACGAATGTTTTCCGACACATGATACTTATCACCGAAAAA    250
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     251 CCTTATTTCACGGAAAAAACCTTATTTACAttaaagtttgaaaaattctc    300
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     301 ttcttttccGCAATATAGTGGGGCCTTTGACTTCTAGAATGCTTTCACGG    350
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     351 ATTTATTTCAGATGTACATTTAGCTCCATTTCCAGTGCCTCCGATAGGAA    400
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     401 GGCATCATGGTACTACCGTGACAGAGAATACGTAGGCAGACTTTTTTGtc    450
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     451 agtttttttgttcGTTTACAAAATTGGTGAATGAATTCTAGCCTTCCTCT    500
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     501 GCTCATTAATTGCCCTCACAAGAATTTGGAAGTGCGTAGAACAGGTAAAA    550
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     551 GGTTGTACTACAGAGGTATTGTGGAACCTTCTACAGTACTTCGGAATACA    600
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     601 CCTAAAAGGTTGTTGGATGCTAAATTTAGCAAAAGTCTTTTTTAGCTCAC    650
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     651 TATTAGGCTTGTTAAAGTTCGAAATTGTTGAAAGACACTCAAAAGATAAA    700
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     701 CCGACAATTAGCATTAACGGCACAGTTGAAAGAGTCACCTACTTGAAATT    750
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     751 AGCTTGGTTATCAAATATAATTATCTCCGGTAAAGAGCTCGGCAGCAGGG    800
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     801 TTTATCTATTCCTATACTTACGCTGTTGGaacattttattattaggATCC    850
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     851 GACTACTGCCTACATATTTATTCGGAAGGCATGATGtcgaaaatttttga    900
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     901 gcTTATAAGTAGAACATCTTTCACTCTTGCTCGTTTGATGTAAGCTTTCT    950
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05     951 CTcggatttttatttttaattcttGTCACCAGTAAACAGAACATCCAAAA   1000
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1001 ATGACAATGCCTCATCGCTATATGTTTTTGGCAGTCTTTACGCTTCTGGC   1050
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1051 ACTAATTAATGTGGCCTCAGGAGCCACAGAAGCGTGCTTACCAGCAGGCC   1100
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1101 AGAGGAAAAGTGGGATGAATATAAATTTCTACCAGTATTCATTGAAGGAT   1150
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1151 TCCTCCACATATTCCAATGCAGCATATATGGCTTATGGATATGCcttgaa   1200
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1201 aacaaaactaGGTTCTGTTAGCGGGCAAACGAATATATCTATCAACTATA   1250
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1251 ATCTTCCTTGTGTTACAACCTCAGGGACATATCAGTGTCCTCAAGAAGAT   1300
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1301 GCATATGGTAATTGGGGATGCGAAGGAAAGGGGGATTGCTCAAATAGCCA   1350
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1351 GGCAAGTGCCTATTGGAGTACTGATTTATTTGGTTTCTACACTACCCCAA   1400
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1401 CAAATATTACTCTAGAAATGACAGGTTACTTTTTACCACCACAAACGGGT   1450
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1451 TCTTACACATTCAAGTTTGCTACAGTTGACGACTCTGCAATTCTATCAGT   1500
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1501 AGGTAGTGACGTTGCATTCGAATGTTGTGCACAAGAACAACCTCCAATTA   1550
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1551 CGTCCACAAACTTTACGATTAATGGTATCAAGCCATGGCAAGGAAGTTTG   1600
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1601 CCTGATAACATTGCAGGGACTGTGTATATGTATGCTGGATTCTACTATCC   1650
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1651 AATGAAGATTGTCTACTCAAACGCTGTTTCTTGGGGTACACTGCCAGTTA   1700
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1701 GTGTGGAATTGCCTGATGGTACTACTGTTAGCGATGATTTCACAGGGTAC   1750
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1751 GTTTACTCTTTTGACGACAACCTAAGTCAGTCAAATTGTACCATTCCAGA   1800
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1801 CCCTTCAAATTATACTGTCAGTACTATCATAACTACAACCGAGCCATGGA   1850
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1851 CCGGTACTTTCACCTCTACATCCACTGAGTTGACTACTGTCACTGGAACC   1900
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1901 AACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAACTCCAACCAG   1950
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    1951 TGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTT   2000
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2001 CGACTTCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAACCAACT   2050
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2051 GACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGTCTAATCAG   2100
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2101 CACCACCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGT   2150
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2151 TGACTACTGTCACTGGAACCAATGGCTTGCCAACTGACGAAACTGTGATT   2200
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2201 GTTATCAGAACTCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACC   2250
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2251 ATGGACCGGTACTTTCACTTCGACTTCCACTGAGTTGACTACTGTCACTG   2300
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2301 GAACCAATGGCTTGCCAACTGACGAAACTGTGATTGTTATCAGAACTCCA   2350
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2351 ACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTT   2400
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2401 CACCTCTACCTCCACTGAGATGACTACTGTCACTGGAACCAATGGCTTGC   2450
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2451 CAACTGACGAAACTGTGATTGTTATCAGAACTCCAACCAGTGAGGGTCTA   2500
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2501 ATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCAC   2550
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2551 TGAGATGACTACTGTCACCGGTACCAACGGTCAACCAACTGACGAAACTG   2600
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2601 TGATTGTTATCAGAACTCCAACTACTGAAGGTTTGATTACTACAACTACC   2650
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2651 GAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGATGACTACTGT   2700
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2701 CACTGGAACCAACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAA   2750
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2751 CCCCAACTACTGAAGGTCTAATCAGCACCACCACTGAACCATGGACCGGT   2800
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2801 ACTTTCACCTCTACCTCCACTGAGATGACTACTGTCACTGGAACCAATGG   2850
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2851 CTTGCCAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGG   2900
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2901 GTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCGACT   2950
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    2951 TCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAACCAACTGACGA   3000
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3001 AACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGTCTAATCAGCACCA   3050
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3051 CCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGATGACT   3100
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3101 ACTGTCACCGGTACCAACGGTCAACCAACTGACGAAACTGTGATTGTTAT   3150
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3151 CAGAACTCCAACTACTGAAGGTTTGATTACTACAACTACCGAACCATGGA   3200
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3201 CCGGTACTTTCACTTCGACTTCCACTGAGATGACTACTGTCACTGGAACC   3250
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3251 AACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAACCCCAACTAC   3300
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3301 TGAAGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACCT   3350
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3351 CTACCTCCACTGAGATGACTACTGTCACTGGAACCAATGGCTTGCCAACT   3400
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3401 GACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGTCTAATCAG   3450
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3451 CACCACCACTGAACCATGGACCGGTACTTTCACCTCTACCTCCACTGAGA   3500
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3501 TGACTACTGTCACTGGAACCAATGGCTTGCCAACTGACGAAACTGTGATT   3550
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3551 GTTATCAGAACTCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACC   3600
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3601 ATGGACCGGTACTTTCACTTCGACTTCCACTGAGATGACTACTGTCACCG   3650
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3651 GTACCAACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAACCCCA   3700
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3701 ACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTT   3750
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3751 CACTTCGACTTCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAAC   3800
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3801 CAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGTCTA   3850
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3851 ATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCAC   3900
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3901 TGAGTTGACTACTGTCACTGGAACCAATGGCTTGCCAACTGACGAAACTG   3950
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    3951 TGATTGTTATCAGAACTCCAACCAGTGAGGGTCTAATCAGCACCACCACT   4000
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4001 GAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGTTGACTACTGT   4050
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4051 CACTGGAACCAATGGCTTGCCAACTGACGAAACTGTGATTGTTATCAGAA   4100
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4101 CTCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGT   4150
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4151 ACTTTCACTTCGACTTCCACTGAGATGACTACTGTCACCGGTACCAACGG   4200
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4201 TCAACCAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGG   4250
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4251 GTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCGACT   4300
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4301 TCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAACCAACTGACGA   4350
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4351 AACTGTGATTGTTATCAGAACTCCAACTACTGAAGGTTTGATTACTACAA   4400
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4401 CTACCGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGATGACT   4450
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4451 ACTGTCACTGGAACCAACGGTCAACCAACTGACGAAACTGTGATTGTTAT   4500
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4501 CAGAACCCCAACTACTGAAGGTCTAATCAGCACCACCACTGAACCATGGA   4550
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4551 CCGGTACTTTCACCTCTACCTCCACTGAGATGACTACTGTCACCGGTACC   4600
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4601 AACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAG   4650
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4651 TGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTT   4700
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4701 CGACTTCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAACCAACT   4750
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4751 GACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGTCTAATCAG   4800
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4801 CACCACCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGT   4850
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4851 TGACTACTGTCACTGGAACCAATGGCTTGCCAACTGACGAAACTGTGATT   4900
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4901 GTTATCAGAACTCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACC   4950
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    4951 ATGGACCGGTACTTTCACTTCGACTTCCACTGAGTTGACTACTGTCACTG   5000
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5001 GAACCAATGGCTTGCCAACTGACGAAACTGTGATTGTTATCAGAACTCCA   5050
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5051 ACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTT   5100
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5101 CACCTCTACCTCCACTGAGATGACTACTGTCACTGGAACCAATGGCTTGC   5150
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5151 CAACTGACGAAACTGTGATTGTTATCAGAACTCCAACCAGTGAGGGTCTA   5200
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5201 ATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCAC   5250
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5251 TGAGATGACTACTGTCACCGGTACCAACGGTCAACCAACTGACGAAACTG   5300
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5301 TGATTGTTATCAGAACCCCAACCAGTGAGGGTCTAATCAGCACCACCACT   5350
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5351 GAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGATGACTACTGT   5400
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5401 CACCGGTACCAACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAA   5450
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5451 CTCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGT   5500
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5501 ACTTTCACCTCTACCTCCACTGAGATGACTACTGTCACTGGAACCAATGG   5550
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5551 CTTGCCAACTGACGAAACTGTGATTGTTATCAGAACTCCAACCAGTGAGG   5600
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5601 GTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACCTCTACC   5650
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5651 TCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAACCAACTGACGA   5700
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5701 AACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGTCTAATCAGCACCA   5750
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5751 CCACTGAACCATGGACCGGTACTTTCACTTCTACCTCCACTGAGTTGACT   5800
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5801 ACTGTCACTGGAACCAATGGCTTGCCAACTGACGAAACTGTGATTGTTAT   5850
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5851 CAGAACCCCAACTACTGAAGGTCTAATCAGCACCACCACTGAACCATGGA   5900
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5901 CCGGTACTTTCACCTCTACCTCCACTGAGATGACTACTGTCACCGGTACC   5950
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    5951 AACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAG   6000
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6001 TGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTT   6050
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6051 CTACCTCCACTGAGTTGACTACTGTCACTGGAACCAACGGTCAACCAACT   6100
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6101 GACGAAACCATCATTGTTGTCAAAACTCCAACAACTGCCATCTCATCCAg   6150
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6151 tttgtcatcatcttcttcaggACAAATCACCAGCTCTATCACGTCTTCGC   6200
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6201 GTCCAATTATTACCCCATTCTATCCTAGCAATGGAACTTCTGTGATTTCT   6250
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6251 TCCTCAGTAATTTCTTCCTCAGACACTTCTTCTCTAGTCACTTCTTCTCC   6300
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6301 AgtcatttcttcttcattcatttcttcctctGTCATTTCTTCTACAACAA   6350
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6351 CCTCCACTTCTATATTCTCTGAATCATTTAAATCATCCGTCATTCCAACC   6400
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6401 AGTAGTTCCACCTCTGGTTCTTCTGAGAGCGAAACAAGTTCAGCTAGTTC   6450
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6451 TgtctcttcttcctcttctatCTCTTCTGAATCACCAAAGTCTACATatt   6500
+                                                                       
+                   0 --------------------------------------------------      0
+
+flo1_uwops05    6501 cgtcttcatcattacCACCTATTACCACTGCAACAACAAGCCAGGAAACT   6550
+                                       ||||||||||||||||||||            
+                   1 ------------------CTATTACCACTGCAACAACA------------     20
+
+flo1_uwops05    6551 GCTTCATCATTACAACCTGCTACCACTACAAAAACAAGCGAACAAACCAC   6600
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    6601 TTTGGTTACCGTGACATCCTGCGAATCTCATGTGTGCACTGAATCCATCT   6650
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    6651 CCTCTGCGATTGTTTCCACAGCTACCGTTACTGTTAGCGGCGTCACAACA   6700
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    6701 GAGTATACCACATGGTGCCCTATTTCTACTACAGAGACAACAGAGCAAAC   6750
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    6751 CACAGAAACAAAACAAACCACAGTAGTtacaatttcttcttgtgaATCTG   6800
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    6801 ACGTATGCTCCAAGACTGCTTCTCCAGCCATTGTGTCTACAAGCACTGCT   6850
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    6851 ACTATTAACGGCGTTACCACGGAATACACAACATGGTGTCCTATTTCCAC   6900
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    6901 CACAGAATCGAAGCAACAAACTACGCTAGTTACTGTTACTTCCTGCGAAT   6950
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    6951 CTGGTGTGTGTTCCGAAACTGCTTCACCTGCCATTGTTTCGACGGCCACG   7000
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7001 GCTACTGTGAATGATGTTGTTACGGTCTATCCTACATGGAGGCCACAGAC   7050
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7051 TACGAATGAAGATTCTGTCAGCTCTAAAATGAACAGTGCTACCAGTGAGA   7100
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7101 CAACAACCAATACTGTAGCTGCTGAAACGACTACCAATACTGGAGCTGCT   7150
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7151 GAGACGAAAACAGTAGTCACCTCTTCGCTTTCAAGATCTAATCACGCTGA   7200
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7201 AACACAGACGGATTCCGCGACCGACGTGATTGGTCACAGCAGTAGTGTTG   7250
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7251 TTTCTGTATCCGAAACTGGCAACACCAAGAGTCTAACAAGTTCCGGGTTG   7300
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7301 AGTACTATGTCGCAACAGCCTCGTAGCACACCAGTAAGCAGCATGGTAGG   7350
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7351 ATCTAGTACAGCTTctttagaaatttcaacGTATGCTGGCAGTGCCAACA   7400
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7401 GCTTACTGGCCGGTAGTGGTTTAAGTGTCTTCGTTGCGTCCTTTTTGCTG   7450
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7451 GcaattatttaataaaattcGCGTTCTTTTTACGTATCTGtgtatctttt   7500
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7501 ctttgctaAATATACGCTGAcatgatttattttttaactgTTTCTCCTCC   7550
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7551 AtactttcaaatattcaaattgAACTAAATGATAATTCTTGCGCTTccta   7600
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7601 ttttgaaaaagtagATATGTGCATCATAAAGAAAAcgttattgttattgt   7650
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7651 cTTGGGCAACAAAAATccatgaaaagaattttacCGTTATCGATATCatt   7700
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7701 gtatttattttatttatttatttaattttttttttttttttgatttatAT   7750
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7751 CCTGCAAACAACACTTCGAATTCAATTCGATATTTCATAAGTTACAACTA   7800
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7801 ACACTTATAGAAACCGATGTATGAGTACTTATCATTAACGAGGAAAAATG   7850
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7851 CCCTATTTTGTTTAGCAATTAATGAACCATCGCCAATTTTTGCTTTAACA   7900
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7901 ATTATTGCCATTTTCAGCAGTACTAACGTAAGATCTAGTGTGGTTCGCTT   7950
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    7951 AGGATGTTTTTGAGTAGAAATCTGCTGTGCATGCCACACGCAGTACTTGA   8000
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8001 AACTTGAAATAATGGTGATAATTAGTTATTTAAAGTATGTTAACCTTCct   8050
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8051 tgttcttttatatttatttcgAATTCTTTTGCACTAGTATTTAAAATATC   8100
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8101 AGCAGAGGCGTAAAAGTGCACCAAAATTATTGTAAAACTACTTGCCCTAA   8150
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8151 AATTGATACTTCATACTCGACATATTCAAAAGGGGTCCAAGTATAGATgc   8200
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8201 atgaaaaaaaaaagaaaattatcCGATGATGAGCAAATGGTGGCTTTTCG   8250
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8251 TTCCCCAGGAAGTGTAGTAGTTCCATGAAGTCTAATGACACTTTGGAAAA   8300
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8301 AGGTTTGTCACGAGCACCTAACTACTgtattttggaattttgaTAAACTT   8350
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8351 CAAAACGGGAACGAAGTGTTAAACTTAGATGCGGTTGATTTAAGCTttaa   8400
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8401 aagaggaaaataatGACTGATGATAAGAATTCAACAACGATTCAAAGCAG   8450
+                                                                       
+                  20 --------------------------------------------------     20
+
+flo1_uwops05    8451 GTGAATTTC   8459
+                              
+                  20 ---------     20
+
+
+#---------------------------------------
+#---------------------------------------

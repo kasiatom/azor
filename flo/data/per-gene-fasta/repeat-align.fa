@@ -1,0 +1,40 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.475)
+
+
+flo1_s288c:1844 ccatggaccggtactttcacttctacatctactgaaatgaccaccgtcaccggtaccaac
+flo1_s288c:1991 ------------acttttacctctacttctaccgaattgaccacagtcactggcaccaat
+flo1_s288c:2126 ------------acttttacctctacttctaccgaattgaccacagtcaccggtaccaat
+flo1_s288c:2261 ------------acttttacctctacttctaccgaattgaccacagtcaccggtaccaat
+flo1_s288c:2396 ------------acttttacctctacttctaccgaattgaccacagtcaccggtaccaat
+flo1_s288c:2531 ------------acttttacctctacatccactgaaatcaccaccgtcaccggtaccaat
+flo1_s288c:2666 ------------acttttacctctacatccactgaaatgaccaccgtcaccggtaccaac
+flo1_s288c:2801 ------------acttttacctctacatccactgaaatgaccaccgtcaccggtaccaac
+flo1_s288c:2936 ------------acttttacctctacatccactgaaatgaccaccgtcaccggtaccaac
+flo1_s288c:3071 ------------acttttacctctacatccactgaaatcaccaccgtcaccggtaccacc
+flo1_s288c:3206 ------------acttttacctctacatccactgaaatgaccaccgtcaccggtaccaac
+flo1_s288c:3329 ccatggactggtactttcacctctacatccactgagatgaccaccgtcaccggtactaac
+flo1_s288c:3464 ccatggactggtacttttacttctacatctactgaaatgaccaccattactggaaccaac
+flo1_s288c:3599 ccatggactggtacttttacttctacatctactgaaatgaccaccattactggaaccaat
+flo1_s288c:3734 ccatggaccggtactttcacttctacatctactgaaatgacgcacgtcaccggtaccaac
+flo1_s288c:3869 ccatggactggcactttcacttcgacttccactgaggttaccaccatcactggaaccaac
+flo1_s288c:4004 ccatggactggtactttcacttctacatctactgaaatgaccaccgtcaccggtactaac
+                            *****.**.** ** **.**.**. * **    .*.**.** **.* .
+
+flo1_s288c:1844 ggcgttccaactgacgaaaccgtcattgtcatcagaactccaaca
+flo1_s288c:1991 ggtgtacgaactgacgaaaccatcattgtaatcagaacaccaaca
+flo1_s288c:2126 ggtttgccaactgatgagaccatcattgtcatcagaacaccaaca
+flo1_s288c:2261 ggtttgccaactgatgagaccatcattgtcatcagaacaccaaca
+flo1_s288c:2396 ggtttgccaactgatgagaccatcattgtcatcagaacaccaaca
+flo1_s288c:2531 ggtttgccaactgatgagaccatcattgtcatcagaacaccaaca
+flo1_s288c:2666 ggtttgccaactgatgaaaccatcattgtcatcagaacaccaaca
+flo1_s288c:2801 ggtttgccaactgatgaaaccatcattgtcatcagaacaccaaca
+flo1_s288c:2936 ggtttgccaactgatgaaaccatcattgtcatcagaacaccaaca
+flo1_s288c:3071 ggtttgccaactgatgagaccatcattgtcatcagaacaccaaca
+flo1_s288c:3206 ggcgttccaactgacgaaaccgtcattgtcatcagaactccaac-
+flo1_s288c:3329 ggtcaaccaactgacgaaaccgtgattgttatcagaactccaac-
+flo1_s288c:3464 ggcgttccaactgacgaaaccgtcattgtcatcagaactccaac-
+flo1_s288c:3599 ggtcaaccaactgacgaaaccgttattgttatcagaactccaac-
+flo1_s288c:3734 ggcgttccaactgacgaaaccgtcattgtcatcagaactccaac-
+flo1_s288c:3869 ggtcaaccaactgacgaaactgtgattgttatcagaactccaac-
+flo1_s288c:4004 ggtcaaccaactgacgaaaccgtgattgttatcagaactccaac-
+                **.   * ******.**.**..* ***** ******** ***** 

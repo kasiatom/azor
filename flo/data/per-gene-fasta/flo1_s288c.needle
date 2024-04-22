@@ -1,0 +1,717 @@
+########################################
+# Program: needle
+# Rundate: Fri 22 Mar 2024 11:57:57
+# Commandline: needle
+#    -asequence flo1_s288c.fa
+#    -bsequence flo1_uwops05.fa
+#    -gapopen 20
+#    -gapextend 1
+# Align_format: srspair
+# Report_file: flo1_s288c.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: flo1_s288c
+# 2: flo1_uwops05
+# Matrix: EDNAFULL
+# Gap_penalty: 20.0
+# Extend_penalty: 1.0
+#
+# Length: 8535
+# Identity:    5823/8535 (68.2%)
+# Similarity:  5823/8535 (68.2%)
+# Gaps:        1997/8535 (23.4%)
+# Score: 23492.0
+# 
+#
+#=======================================
+
+flo1_s288c         1 -AAAAAAGTGCATTTATTTAGGTAAG--TCTCATTACCTAAACGCCAGTT     47
+                      |.|...||...|||||||||..|||  ||..|||||||||.|||||.||
+flo1_uwops05       1 AACAGGcgtttttttatttagtAAAGCATCATATTACCTAAGCGCCACTT     50
+
+flo1_s288c        48 TGTTTCACGTAATTGGTAACGATGAGGGAACCGCAGTAGAAAAAACTTTC     97
+                     ||.||.||||.|.|...||..||||.|.||..|.|.|||||.||||||||
+flo1_uwops05      51 TGCTTGACGTTAGTaacaaaaatgatgaaattgtAATAGAAGAAACTTTC    100
+
+flo1_s288c        98 ATTCACAAACGATTAAAGTGTTATGCTAGCCAGTTTCAGGCTTTTTGTTT    147
+                     ||.|.|||||.|||.|.||..||||||||.|.||.|||.||    |||||
+flo1_uwops05     101 ATCCGCAAACTATTGAGGTACTATGCTAGTCCGTCTCAAGC----TGTTT    146
+
+flo1_s288c       148 TATGCAAGAGAACATTCGACTAGATGTCCAGTTAAGTGTGCGTCACTTTT    197
+                     .||||||||||||.|||.|||..||.|||.|.||   ||.||.|||||||
+flo1_uwops05     147 GATGCAAGAGAACGTTCAACTCAATTTCCGGCTA---GTACGCCACTTTT    193
+
+flo1_s288c       198 CCTACGGT-GCCTCGCACATGAATGTTATCCGGCGCACGATACTTATCAC    246
+                     |||||||| ||.|||||.|.|||||||.||||.|.||.||||||||||||
+flo1_uwops05     194 CCTACGGTGGCTTCGCAGACGAATGTTTTCCGACACATGATACTTATCAC    243
+
+flo1_s288c       247 CGAAAAACCTTATTCTACGG--AAAACCTTATTTACATTAAAGTTGGAAA    294
+                     ||||||||||||||..||||  |||||||||||||||||||||||.||||
+flo1_uwops05     244 CGAAAAACCTTATTTCACGGAAAAAACCTTATTTACAttaaagtttgaaa    293
+
+flo1_s288c       295 AATT-TCCTCTTTTTCCTAATAAGGTGGAGCTTTTGGCTTCCAGTATGCT    343
+                     |||| ||.||||||.|..||||..||||.||.||||.||||.||.|||||
+flo1_uwops05     294 aattctcttcttttccGCAATATAGTGGGGCCTTTGACTTCTAGAATGCT    343
+
+flo1_s288c       344 TTCACGGAATTATTTCTCATGTACATTTAGCTCCATTTCCAGTGCCTCCG    393
+                     ||||||||.|||||||..||||||||||||||||||||||||||||||||
+flo1_uwops05     344 TTCACGGATTTATTTCAGATGTACATTTAGCTCCATTTCCAGTGCCTCCG    393
+
+flo1_s288c       394 ATAGGGAGGCATCATGGTACTACCGTGACGGAGAATACGTAGGCTGACTT    443
+                     |||||.|||||||||||||||||||||||.||||||||||||||.|||||
+flo1_uwops05     394 ATAGGAAGGCATCATGGTACTACCGTGACAGAGAATACGTAGGCAGACTT    443
+
+flo1_s288c       444 TTTCGTCAG-TTTGTTGTCCGTTTACAAAATTGGTGAATGAATTCTAGCC    492
+                     |||.||||| |||.||||.|||||||||||||||||||||||||||||||
+flo1_uwops05     444 TTTTGtcagtttttttgttcGTTTACAAAATTGGTGAATGAATTCTAGCC    493
+
+flo1_s288c       493 TTCCTCTGCTCATTAATTGCCCTCACAAGAATTTGGAAGTGCGTAGAACA    542
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05     494 TTCCTCTGCTCATTAATTGCCCTCACAAGAATTTGGAAGTGCGTAGAACA    543
+
+flo1_s288c       543 GGTAAAAGATTGTACTACAGAGGTATTGTGGAACCTTCTACAGTACTTCG    592
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05     544 GGTAAAAGGTTGTACTACAGAGGTATTGTGGAACCTTCTACAGTACTTCG    593
+
+flo1_s288c       593 GAATACACCTAAAAGGTTGTTGGATGCTAAATTTAGCAAAAGTCTTTTTT    642
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05     594 GAATACACCTAAAAGGTTGTTGGATGCTAAATTTAGCAAAAGTCTTTTTT    643
+
+flo1_s288c       643 AGCTCACTATTAGGCTTGTTAAAGTCTGAAATTGTTGAAAGGCACTCAAA    692
+                     |||||||||||||||||||||||||..||||||||||||||.||||| ||
+flo1_uwops05     644 AGCTCACTATTAGGCTTGTTAAAGTTCGAAATTGTTGAAAGACACTC-AA    692
+
+flo1_s288c       693 AAGATAAATCAACAATCAGCATTAACGGCACAGTTGAAAGAGTCACCCAC    742
+                     ||||||||.|.|||||.||||||||||||||||||||||||||||||.||
+flo1_uwops05     693 AAGATAAACCGACAATTAGCATTAACGGCACAGTTGAAAGAGTCACCTAC    742
+
+flo1_s288c       743 TTGAAATTAGCTCGGTTATCAAATATAATTATCTCTGGTAAAGAGCTCTG    792
+                     ||||||||||||.||||||||||||||||||||||.||||||||||||.|
+flo1_uwops05     743 TTGAAATTAGCTTGGTTATCAAATATAATTATCTCCGGTAAAGAGCTCGG    792
+
+flo1_s288c       793 CAGCAGGGTTAATCTATTCGCATACTTACGCTGTAGGAACATTTTATTAT    842
+                     ||||||||||.||||||||..|||||||||||||.|||||||||||||||
+flo1_uwops05     793 CAGCAGGGTTTATCTATTCCTATACTTACGCTGTTGGaacattttattat    842
+
+flo1_s288c       843 TAGGATCCGACTACTGCCTACATATTTATTCGGAAGGCATGATGTCGAAA    892
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05     843 taggATCCGACTACTGCCTACATATTTATTCGGAAGGCATGATGtcgaaa    892
+
+flo1_s288c       893 ATTTTTGAGCTTATAAAAGGAACATATTTCACTCTTGCTCGTTTGATGTA    942
+                     ||||||||||||||||...||||||.||||||||||||||||||||||||
+flo1_uwops05     893 atttttgagcTTATAAGTAGAACATCTTTCACTCTTGCTCGTTTGATGTA    942
+
+flo1_s288c       943 AGCTCTCTTCCGGGTTCTTATTTTTAATTCTTGTCACCAGTAAACAGAAC    992
+                     ||||.|||..|||.||.|||||||||||||||||||||||||||||||||
+flo1_uwops05     943 AGCTTTCTCTcggatttttatttttaattcttGTCACCAGTAAACAGAAC    992
+
+flo1_s288c       993 ATCCAAAAATGACAATGCCTCATCGCTATATGTTTTTGGCAGTCTTTACA   1042
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+flo1_uwops05     993 ATCCAAAAATGACAATGCCTCATCGCTATATGTTTTTGGCAGTCTTTACG   1042
+
+flo1_s288c      1043 CTTCTGGCACTAACTAGTGTGGCCTCAGGAGCCACAGAGGCGTGCTTACC   1092
+                     |||||||||||||.||.|||||||||||||||||||||.|||||||||||
+flo1_uwops05    1043 CTTCTGGCACTAATTAATGTGGCCTCAGGAGCCACAGAAGCGTGCTTACC   1092
+
+flo1_s288c      1093 AGCAGGCCAGAGGAAAAGTGGGATGAATATAAATTTTTACCAGTATTCAT   1142
+                     ||||||||||||||||||||||||||||||||||||.|||||||||||||
+flo1_uwops05    1093 AGCAGGCCAGAGGAAAAGTGGGATGAATATAAATTTCTACCAGTATTCAT   1142
+
+flo1_s288c      1143 TGAAAGATTCCTCCACATATTCGAATGCAGCATATATGGCTTATGGATAT   1192
+                     ||||.|||||||||||||||||.|||||||||||||||||||||||||||
+flo1_uwops05    1143 TGAAGGATTCCTCCACATATTCCAATGCAGCATATATGGCTTATGGATAT   1192
+
+flo1_s288c      1193 GCCTCAAAAACCAAACTAGGTTCTGTCGGAGGACAAACTGATATCTCGAT   1242
+                     ||||..|||||.||||||||||||||..|.||.|||||..||||.||.||
+flo1_uwops05    1193 GCcttgaaaacaaaactaGGTTCTGTTAGCGGGCAAACGAATATATCTAT   1242
+
+flo1_s288c      1243 TGATTATAATATTCCCTGTGTTAGTTCATCAGGCACATTTCCTTGTCCTC   1292
+                     ..|.||||||.||||.|||||||...|.|||||.||||.||..|||||||
+flo1_uwops05    1243 CAACTATAATCTTCCTTGTGTTACAACCTCAGGGACATATCAGTGTCCTC   1292
+
+flo1_s288c      1293 AAGAAGATTCCTATGGAAACTGGGGATGCAAAGGAATGGGTGCTTGTTCT   1342
+                     ||||||||.|.|||||.||.|||||||||.||||||.|||.|.|||.||.
+flo1_uwops05    1293 AAGAAGATGCATATGGTAATTGGGGATGCGAAGGAAAGGGGGATTGCTCA   1342
+
+flo1_s288c      1343 AATAGTCAAGGAATTGCATACTGGAGTACTGATTTATTTGGTTTCTATAC   1392
+                     |||||.||.|.||.|||.||.||||||||||||||||||||||||||.||
+flo1_uwops05    1343 AATAGCCAGGCAAGTGCCTATTGGAGTACTGATTTATTTGGTTTCTACAC   1392
+
+flo1_s288c      1393 TACCCCAACAAACGTAACCCTAGAAATGACAGGTTATTTTTTACCACCAC   1442
+                     ||||||||||||..|.||.|||||||||||||||||.|||||||||||||
+flo1_uwops05    1393 TACCCCAACAAATATTACTCTAGAAATGACAGGTTACTTTTTACCACCAC   1442
+
+flo1_s288c      1443 AGACGGGTTCTTACACATTCAAGTTTGCTACAGTTGACGACTCTGCAATT   1492
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    1443 AAACGGGTTCTTACACATTCAAGTTTGCTACAGTTGACGACTCTGCAATT   1492
+
+flo1_s288c      1493 CTATCAGTAGGTGGTGCAACCGCGTTCAACTGTTGTGCTCAACAGCAACC   1542
+                     ||||||||||||.|||.....||.|||.|.||||||||.|||.|.|||||
+flo1_uwops05    1493 CTATCAGTAGGTAGTGACGTTGCATTCGAATGTTGTGCACAAGAACAACC   1542
+
+flo1_s288c      1543 GCCGATCACATCAACGAACTTTACCATTGACGGTATCAAGCCATGGGGTG   1592
+                     .||.||.||.||.||.||||||||.|||.|.|||||||||||||||...|
+flo1_uwops05    1543 TCCAATTACGTCCACAAACTTTACGATTAATGGTATCAAGCCATGGCAAG   1592
+
+flo1_s288c      1593 GAAGTTTGCCACCTAATATCGAAGGAACCGTCTATATGTACGCTGGCTAC   1642
+                     ||||||||||...|||.||.|.|||.||.||.||||||||.|||||.|.|
+flo1_uwops05    1593 GAAGTTTGCCTGATAACATTGCAGGGACTGTGTATATGTATGCTGGATTC   1642
+
+flo1_s288c      1643 TATTATCCAATGAAGGTTGTTTACTCGAACGCTGTTTCTTGGGGTACACT   1692
+                     ||.||||||||||||.||||.|||||.|||||||||||||||||||||||
+flo1_uwops05    1643 TACTATCCAATGAAGATTGTCTACTCAAACGCTGTTTCTTGGGGTACACT   1692
+
+flo1_s288c      1693 TCCAATTAGTGTGACACTTCCAGATGGTACCACTGTAAGTGATGACTTCG   1742
+                     .|||.||||||||..|.|.||.||||||||.|||||.||.|||||.|||.
+flo1_uwops05    1693 GCCAGTTAGTGTGGAATTGCCTGATGGTACTACTGTTAGCGATGATTTCA   1742
+
+flo1_s288c      1743 AAGGGTACGTCTATTCCTTTGACGATGACCTAAGTCAATCTAACTGTACT   1792
+                     .|||||||||.||.||.||||||||..||||||||||.||.||.|||||.
+flo1_uwops05    1743 CAGGGTACGTTTACTCTTTTGACGACAACCTAAGTCAGTCAAATTGTACC   1792
+
+flo1_s288c      1793 GTCCCTGACCCTTCAAATTATGCTGTCAGTACCACTACAACTACAACGGA   1842
+                     .|.||.|||||||||||||||.||||||||||.|..|.|||||||||.||
+flo1_uwops05    1793 ATTCCAGACCCTTCAAATTATACTGTCAGTACTATCATAACTACAACCGA   1842
+
+flo1_s288c      1843 ACCATGGACCGGTACTTTCACTTCTACATCTACTGAAATGACCACCGTCA   1892
+                     .||||||||||||||||||||.||||||||.|||||..||||.||.||||
+flo1_uwops05    1843 GCCATGGACCGGTACTTTCACCTCTACATCCACTGAGTTGACTACTGTCA   1892
+
+flo1_s288c      1893 CCGGTACCAACGGCGTTCCAACTGACGAAACCGTCATTGTCATCAGAACT   1942
+                     |.||.||||||||....||||||||||||||.||.|||||.|||||||||
+flo1_uwops05    1893 CTGGAACCAACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAACT   1942
+
+flo1_s288c      1943 CCAACAACTG---------CTAGCACC-----------------------   1960
+                     |||||.|.||         ..||||||                       
+flo1_uwops05    1943 CCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTAC   1992
+
+flo1_s288c      1960 --------------------------------------------------   1960
+                                                                       
+flo1_uwops05    1993 TTTCACTTCGACTTCCACTGAGATGACTACTGTCACCGGTACCAACGGTC   2042
+
+flo1_s288c      1960 --------------------------------------------------   1960
+                                                                       
+flo1_uwops05    2043 AACCAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGT   2092
+
+flo1_s288c      1961 ---ATCATAACTACAACTGAGCCATGGAACAGCACTTTTACCTCTACTTC   2007
+                        ||||..||.||.|||||.|||||||.|.|.|||||.||.||.|||||
+flo1_uwops05    2093 CTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCGACTTC   2142
+
+flo1_s288c      2008 TACCGAATTGACCACAGTCACTGGCACCAATGGTGTACGAACTGACGAAA   2057
+                     .||.||.|||||.||.||||||||.||||||||..|.|.|||||||||||
+flo1_uwops05    2143 CACTGAGTTGACTACTGTCACTGGAACCAATGGCTTGCCAACTGACGAAA   2192
+
+flo1_s288c      2058 CCATCATTGTAATCAGAACACCAACAACAG---------------CCACT   2092
+                     |..|.|||||.||||||||.|||||.|..|               ||||.
+flo1_uwops05    2193 CTGTGATTGTTATCAGAACTCCAACCAGTGAGGGTCTAATCAGCACCACC   2242
+
+flo1_s288c      2093 ACTG----------------------------------------------   2096
+                     ||||                                              
+flo1_uwops05    2243 ACTGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGTTGACTAC   2292
+
+flo1_s288c      2096 --------------------------------------------------   2096
+                                                                       
+flo1_uwops05    2293 TGTCACTGGAACCAATGGCTTGCCAACTGACGAAACTGTGATTGTTATCA   2342
+
+flo1_s288c      2097 ------------------------CCATAACTACAACTGAGCCATGGAAC   2122
+                                             .||..||.||.|||||.|||||||.|
+flo1_uwops05    2343 GAACTCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACC   2392
+
+flo1_s288c      2123 AGCACTTTTACCTCTACTTCTACCGAATTGACCACAGTCACCGGTACCAA   2172
+                     .|.|||||.||||||||.||.||.||..||||.||.|||||.||.|||||
+flo1_uwops05    2393 GGTACTTTCACCTCTACCTCCACTGAGATGACTACTGTCACTGGAACCAA   2442
+
+flo1_s288c      2173 TGGTTTGCCAACTGATGAGACCATCATTGTCATCAGAACACCAAC-----   2217
+                     |||.|||||||||||.||.||..|.|||||.||||||||.|||||     
+flo1_uwops05    2443 TGGCTTGCCAACTGACGAAACTGTGATTGTTATCAGAACTCCAACCAGTG   2492
+
+flo1_s288c      2217 --------------------------------------------------   2217
+                                                                       
+flo1_uwops05    2493 AGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCG   2542
+
+flo1_s288c      2217 --------------------------------------------------   2217
+                                                                       
+flo1_uwops05    2543 ACTTCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAACCAACTGA   2592
+
+flo1_s288c      2218 ---------------------AACAGCCACTACTG---------------   2231
+                                          |||..|.|||||||               
+flo1_uwops05    2593 CGAAACTGTGATTGTTATCAGAACTCCAACTACTGAAGGTTTGATTACTA   2642
+
+flo1_s288c      2232 -----------CCATG----------------------------------   2236
+                                |||||                                  
+flo1_uwops05    2643 CAACTACCGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGATG   2692
+
+flo1_s288c      2236 --------------------------------------------------   2236
+                                                                       
+flo1_uwops05    2693 ACTACTGTCACTGGAACCAACGGTCAACCAACTGACGAAACTGTGATTGT   2742
+
+flo1_s288c      2237 ----------------------------------ACTACAACTCAGCCAT   2252
+                                                       ||.||.|||.|.||||
+flo1_uwops05    2743 TATCAGAACCCCAACTACTGAAGGTCTAATCAGCACCACCACTGAACCAT   2792
+
+flo1_s288c      2253 GGAACGACACTTTTACCTCTACTTCTACCGAATTGACCACAGTCACCGGT   2302
+                     |||.||..|||||.||||||||.||.||.||..||||.||.|||||.||.
+flo1_uwops05    2793 GGACCGGTACTTTCACCTCTACCTCCACTGAGATGACTACTGTCACTGGA   2842
+
+flo1_s288c      2303 ACCAATGGTTTGCCAACTGATGAGACCATCATTGTCATCAGAACACCAAC   2352
+                     ||||||||.|||||||||||.||.||..|.|||||.||||||||.|||||
+flo1_uwops05    2843 ACCAATGGCTTGCCAACTGACGAAACTGTGATTGTTATCAGAACCCCAAC   2892
+
+flo1_s288c      2353 AACAG---------------CCACTACTG--CCATG--------------   2371
+                     .|..|               ||||.||||  |||||              
+flo1_uwops05    2893 CAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCA   2942
+
+flo1_s288c      2371 --------------------------------------------------   2371
+                                                                       
+flo1_uwops05    2943 CTTCGACTTCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAACCA   2992
+
+flo1_s288c      2371 --------------------------------------------------   2371
+                                                                       
+flo1_uwops05    2993 ACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGTCTAAT   3042
+
+flo1_s288c      2372 ----ACTACAACTCAGCCATGGAACGACACTTTTACCTCTACTTCTACCG   2417
+                         ||.||.|||.|.|||||||.||..|||||.||.||.|||||.||.|
+flo1_uwops05    3043 CAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCACTG   3092
+
+flo1_s288c      2418 AATTGACCACAGTCACCGGTACCAATGGTTTGCCAACTGATGAGACCATC   2467
+                     |..||||.||.||||||||||||||.|||...||||||||.||.||..|.
+flo1_uwops05    3093 AGATGACTACTGTCACCGGTACCAACGGTCAACCAACTGACGAAACTGTG   3142
+
+flo1_s288c      2468 ATTGTCATCAGAACACCAAC------------------------------   2487
+                     |||||.||||||||.|||||                              
+flo1_uwops05    3143 ATTGTTATCAGAACTCCAACTACTGAAGGTTTGATTACTACAACTACCGA   3192
+
+flo1_s288c      2487 --------------------------------------------------   2487
+                                                                       
+flo1_uwops05    3193 ACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGATGACTACTGTCA   3242
+
+flo1_s288c      2488 ----------------------------------------------AACA   2491
+                                                                   |||.
+flo1_uwops05    3243 CTGGAACCAACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAACC   3292
+
+flo1_s288c      2492 GCCACTACTG---------CCATGACTACAACTCAGCCATGGAACGACAC   2532
+                     .|.|||||||         .||..||.||.|||.|.|||||||.||..||
+flo1_uwops05    3293 CCAACTACTGAAGGTCTAATCAGCACCACCACTGAACCATGGACCGGTAC   3342
+
+flo1_s288c      2533 TTTTACCTCTACATCCACTGAAATCACCACCGTCACCGGTACCAATGGTT   2582
+                     |||.||||||||.||||||||.||.||.||.|||||.||.||||||||.|
+flo1_uwops05    3343 TTTCACCTCTACCTCCACTGAGATGACTACTGTCACTGGAACCAATGGCT   3392
+
+flo1_s288c      2583 TGCCAACTGATGAGACCATCATTGTCATCAGAACACCAACAA--CAGCCA   2630
+                     ||||||||||.||.||..|.|||||.||||||||.|||||.|  .||...
+flo1_uwops05    3393 TGCCAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGT   3442
+
+flo1_s288c      2631 CTACTGCCATGACTACACCTCAGCCATGGAACGACACTTTTACCTCTACA   2680
+                     |||.|  ||..||.||..||.|.|||||||.||..|||||.||||||||.
+flo1_uwops05    3443 CTAAT--CAGCACCACCACTGAACCATGGACCGGTACTTTCACCTCTACC   3490
+
+flo1_s288c      2681 TCCACTGAAATGACCACCGTCACCGGTACCAACGGTTTGCCAACTGATGA   2730
+                     ||||||||.|||||.||.|||||.||.|||||.||.|||||||||||.||
+flo1_uwops05    3491 TCCACTGAGATGACTACTGTCACTGGAACCAATGGCTTGCCAACTGACGA   3540
+
+flo1_s288c      2731 AACCATCATTGTCATCAGAACACCAACAACAG---------------CCA   2765
+                     |||..|.|||||.||||||||.|||||.|..|               |||
+flo1_uwops05    3541 AACTGTGATTGTTATCAGAACTCCAACCAGTGAGGGTCTAATCAGCACCA   3590
+
+flo1_s288c      2766 CTACTG--------------------------------------------   2771
+                     |.||||                                            
+flo1_uwops05    3591 CCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGATGACT   3640
+
+flo1_s288c      2771 --------------------------------------------------   2771
+                                                                       
+flo1_uwops05    3641 ACTGTCACCGGTACCAACGGTCAACCAACTGACGAAACTGTGATTGTTAT   3690
+
+flo1_s288c      2772 --------------------------CCATAACTACAACTGAGCCATGGA   2795
+                                               .||..||.||.|||||.|||||||
+flo1_uwops05    3691 CAGAACCCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGA   3740
+
+flo1_s288c      2796 ACAGCACTTTTACCTCTACATCCACTGAAATGACCACCGTCACCGGTACC   2845
+                     .|.|.|||||.||.||.||.||||||||.|||||.||.||||||||||||
+flo1_uwops05    3741 CCGGTACTTTCACTTCGACTTCCACTGAGATGACTACTGTCACCGGTACC   3790
+
+flo1_s288c      2846 AACGGTTTGCCAACTGATGAAACCATCATTGTCATCAGAACACCAACAAC   2895
+                     ||||||...||||||||.|||||..|.|||||.||||||||.|||||.|.
+flo1_uwops05    3791 AACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAG   3840
+
+flo1_s288c      2896 AG---------------CCACTACTG------------------------   2906
+                     .|               ||||.||||                        
+flo1_uwops05    3841 TGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTT   3890
+
+flo1_s288c      2906 --------------------------------------------------   2906
+                                                                       
+flo1_uwops05    3891 CGACTTCCACTGAGTTGACTACTGTCACTGGAACCAATGGCTTGCCAACT   3940
+
+flo1_s288c      2907 ----------------------------------------------CCAT   2910
+                                                                   .||.
+flo1_uwops05    3941 GACGAAACTGTGATTGTTATCAGAACTCCAACCAGTGAGGGTCTAATCAG   3990
+
+flo1_s288c      2911 AACTACAACTCAGCCATGGAACGACACTTTTACCTCTACATCCACTGAAA   2960
+                     .||.||.|||.|.|||||||.||..|||||.||.||.||.||||||||..
+flo1_uwops05    3991 CACCACCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGT   4040
+
+flo1_s288c      2961 TGACCACCGTCACCGGTACCAACGGTTTGCCAACTGATGAAACCATCATT   3010
+                     ||||.||.|||||.||.|||||.||.|||||||||||.|||||..|.|||
+flo1_uwops05    4041 TGACTACTGTCACTGGAACCAATGGCTTGCCAACTGACGAAACTGTGATT   4090
+
+flo1_s288c      3011 GTCATCAGAACACCAACAACAG---------------CCACTACTG--CC   3043
+                     ||.||||||||.|||||.|..|               ||||.||||  ||
+flo1_uwops05    4091 GTTATCAGAACTCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACC   4140
+
+flo1_s288c      3044 ATG-----------------------------------------------   3046
+                     |||                                               
+flo1_uwops05    4141 ATGGACCGGTACTTTCACTTCGACTTCCACTGAGATGACTACTGTCACCG   4190
+
+flo1_s288c      3046 --------------------------------------------------   3046
+                                                                       
+flo1_uwops05    4191 GTACCAACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAACCCCA   4240
+
+flo1_s288c      3047 ---------------------ACTACAACTCAGCCATGGAACGACACTTT   3075
+                                          ||.||.|||.|.|||||||.||..|||||
+flo1_uwops05    4241 ACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTT   4290
+
+flo1_s288c      3076 TACCTCTACATCCACTGAAATCACCACCGTCACCGGTACCACCGGTTTGC   3125
+                     .||.||.||.||||||||.||.||.||.|||||||||||||.||||...|
+flo1_uwops05    4291 CACTTCGACTTCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAAC   4340
+
+flo1_s288c      3126 CAACTGATGAGACCATCATTGTCATCAGAACACCAAC-------------   3162
+                     |||||||.||.||..|.|||||.||||||||.|||||             
+flo1_uwops05    4341 CAACTGACGAAACTGTGATTGTTATCAGAACTCCAACTACTGAAGGTTTG   4390
+
+flo1_s288c      3162 --------------------------------------------------   3162
+                                                                       
+flo1_uwops05    4391 ATTACTACAACTACCGAACCATGGACCGGTACTTTCACTTCGACTTCCAC   4440
+
+flo1_s288c      3162 --------------------------------------------------   3162
+                                                                       
+flo1_uwops05    4441 TGAGATGACTACTGTCACTGGAACCAACGGTCAACCAACTGACGAAACTG   4490
+
+flo1_s288c      3163 -------------AACAGCCACTACTG---------CCATGACTACAACT   3190
+                                  |||..|.|||||||         .||..||.||.|||
+flo1_uwops05    4491 TGATTGTTATCAGAACCCCAACTACTGAAGGTCTAATCAGCACCACCACT   4540
+
+flo1_s288c      3191 CAGCCATGGAACGACACTTTTACCTCTACATCCACTGAAATGACCACCGT   3240
+                     .|.|||||||.||..|||||.||||||||.||||||||.|||||.||.||
+flo1_uwops05    4541 GAACCATGGACCGGTACTTTCACCTCTACCTCCACTGAGATGACTACTGT   4590
+
+flo1_s288c      3241 CACCGGTACCAACGGCGTTCCAACTGACGAAACCGTCATTGTCATCAGAA   3290
+                     |||||||||||||||....||||||||||||||.||.|||||.|||||||
+flo1_uwops05    4591 CACCGGTACCAACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAA   4640
+
+flo1_s288c      3291 CTCCAACTAGTGAAGGTCTAATCAGCACCACCACTGAACCATGGACTGGT   3340
+                     |.|||||.|||||.||||||||||||||||||||||||||||||||.|||
+flo1_uwops05    4641 CCCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGT   4690
+
+flo1_s288c      3341 ACTTTCACCTCTACATCCACTGAGATGACCACCGTCACCGGTACTAACGG   3390
+                     ||||||||.||.||.||||||||||||||.||.|||||||||||.|||||
+flo1_uwops05    4691 ACTTTCACTTCGACTTCCACTGAGATGACTACTGTCACCGGTACCAACGG   4740
+
+flo1_s288c      3391 TCAACCAACTGACGAAACCGTGATTGTTATCAGAACTCCAACCAGTGAAG   3440
+                     ||||||||||||||||||.|||||||||||||||||.|||||||||||.|
+flo1_uwops05    4741 TCAACCAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGG   4790
+
+flo1_s288c      3441 GTTTGGTTACAACCACCACTGAACCATGGACTGGTACTTTTACTTCTACA   3490
+                     ||.|..|.|..||||||||||||||||||||.||||||||.|||||.||.
+flo1_uwops05    4791 GTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCGACT   4840
+
+flo1_s288c      3491 TCTACTGAAATGACCACCATTACTGGAACCAACGGCGTTCCAACTGACGA   3540
+                     ||.|||||..||||.||..|.|||||||||||.|||.|.|||||||||||
+flo1_uwops05    4841 TCCACTGAGTTGACTACTGTCACTGGAACCAATGGCTTGCCAACTGACGA   4890
+
+flo1_s288c      3541 AACCGTCATTGTCATCAGAACTCCAACCAGTGAAGGTCTAATCAGCACCA   3590
+                     |||.||.|||||.||||||||||||||||||||.||||||||||||||||
+flo1_uwops05    4891 AACTGTGATTGTTATCAGAACTCCAACCAGTGAGGGTCTAATCAGCACCA   4940
+
+flo1_s288c      3591 CCACTGAACCATGGACTGGTACTTTTACTTCTACATCTACTGAAATGACC   3640
+                     ||||||||||||||||.||||||||.|||||.||.||.|||||..||||.
+flo1_uwops05    4941 CCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGTTGACT   4990
+
+flo1_s288c      3641 ACCATTACTGGAACCAATGGTCAACCAACTGACGAAACCGTTATTGTTAT   3690
+                     ||..|.||||||||||||||....||||||||||||||.||.||||||||
+flo1_uwops05    4991 ACTGTCACTGGAACCAATGGCTTGCCAACTGACGAAACTGTGATTGTTAT   5040
+
+flo1_s288c      3691 CAGAACTCCAACTAGTGAAGGTCTAATCAGCACTACAACGGAACCATGGA   3740
+                     ||||||||||||.|||||.||||||||||||||.||.||.||||||||||
+flo1_uwops05    5041 CAGAACTCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGA   5090
+
+flo1_s288c      3741 CCGGTACTTTCACTTCTACATCTACTGAAATGACGCACGTCACCGGTACC   3790
+                     |||||||||||||.|||||.||.|||||.|||||....|||||.||.|||
+flo1_uwops05    5091 CCGGTACTTTCACCTCTACCTCCACTGAGATGACTACTGTCACTGGAACC   5140
+
+flo1_s288c      3791 AACGGCGTTCCAACTGACGAAACCGTCATTGTCATCAGAACTCCAACCAG   3840
+                     ||.|||.|.||||||||||||||.||.|||||.|||||||||||||||||
+flo1_uwops05    5141 AATGGCTTGCCAACTGACGAAACTGTGATTGTTATCAGAACTCCAACCAG   5190
+
+flo1_s288c      3841 TGAAGGTCTAATCAGCACCACCACTGAACCATGGACTGGCACTTTCACTT   3890
+                     |||.||||||||||||||||||||||||||||||||.||.||||||||||
+flo1_uwops05    5191 TGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTT   5240
+
+flo1_s288c      3891 CGACTTCCACTGAGGTTACCACCATCACTGGAACCAACGGTCAACCAACT   3940
+                     ||||||||||||||.|.||.||..||||.||.||||||||||||||||||
+flo1_uwops05    5241 CGACTTCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAACCAACT   5290
+
+flo1_s288c      3941 GACGAAACTGTGATTGTTATCAGAACTCCAACCAGTGAAGGTCTAATCAG   3990
+                     ||||||||||||||||||||||||||.|||||||||||.|||||||||||
+flo1_uwops05    5291 GACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGTCTAATCAG   5340
+
+flo1_s288c      3991 CACCACCACTGAACCATGGACTGGTACTTTCACTTCTACATCTACTGAAA   4040
+                     |||||||||||||||||||||.||||||||||||||.||.||.|||||.|
+flo1_uwops05    5341 CACCACCACTGAACCATGGACCGGTACTTTCACTTCGACTTCCACTGAGA   5390
+
+flo1_s288c      4041 TGACCACCGTCACCGGTACTAACGGTCAACCAACTGACGAAACCGTGATT   4090
+                     ||||.||.|||||||||||.|||||||||||||||||||||||.||||||
+flo1_uwops05    5391 TGACTACTGTCACCGGTACCAACGGTCAACCAACTGACGAAACTGTGATT   5440
+
+flo1_s288c      4091 GTTATCAGAACTCCAACCAGTGAAGGTTTGGTTACAACCACCACTGAACC   4140
+                     |||||||||||||||||||||||.|||.|..|.|..||||||||||||||
+flo1_uwops05    5441 GTTATCAGAACTCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACC   5490
+
+flo1_s288c      4141 ATGGACTGGTACTTTTACTTCGACTTCCACTGAAATGTCTACTGTCACTG   4190
+                     ||||||.||||||||.||.||.||.||||||||.|||.||||||||||||
+flo1_uwops05    5491 ATGGACCGGTACTTTCACCTCTACCTCCACTGAGATGACTACTGTCACTG   5540
+
+flo1_s288c      4191 GAACCAATGGCTTGCCAACTGATGAAACTG--------------------   4220
+                     ||||||||||||||||||||||.|||||||                    
+flo1_uwops05    5541 GAACCAATGGCTTGCCAACTGACGAAACTGTGATTGTTATCAGAACTCCA   5590
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    5591 ACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGTACTTT   5640
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    5641 CACCTCTACCTCCACTGAGATGACTACTGTCACCGGTACCAACGGTCAAC   5690
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    5691 CAACTGACGAAACTGTGATTGTTATCAGAACCCCAACCAGTGAGGGTCTA   5740
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    5741 ATCAGCACCACCACTGAACCATGGACCGGTACTTTCACTTCTACCTCCAC   5790
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    5791 TGAGTTGACTACTGTCACTGGAACCAATGGCTTGCCAACTGACGAAACTG   5840
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    5841 TGATTGTTATCAGAACCCCAACTACTGAAGGTCTAATCAGCACCACCACT   5890
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    5891 GAACCATGGACCGGTACTTTCACCTCTACCTCCACTGAGATGACTACTGT   5940
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    5941 CACCGGTACCAACGGTCAACCAACTGACGAAACTGTGATTGTTATCAGAA   5990
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    5991 CCCCAACCAGTGAGGGTCTAATCAGCACCACCACTGAACCATGGACCGGT   6040
+
+flo1_s288c      4220 --------------------------------------------------   4220
+                                                                       
+flo1_uwops05    6041 ACTTTCACTTCTACCTCCACTGAGTTGACTACTGTCACTGGAACCAACGG   6090
+
+flo1_s288c      4221 --------------------TCATTGTTGTCAAAACTCCAACTACTGCCA   4250
+                                         ||||||||||||||||||||||.|||||||
+flo1_uwops05    6091 TCAACCAACTGACGAAACCATCATTGTTGTCAAAACTCCAACAACTGCCA   6140
+
+flo1_s288c      4251 TCTCATCCAGTTTGTCATCATCATCTTCAGGACAAATCACCAGCTCTATC   4300
+                     ||||||||||||||||||||||.|||||||||||||||||||||||||||
+flo1_uwops05    6141 TCTCATCCAgtttgtcatcatcttcttcaggACAAATCACCAGCTCTATC   6190
+
+flo1_s288c      4301 ACGTCTTCGCGTCCAATTATTACCCCATTCTATCCTAGCAATGGAACTTC   4350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    6191 ACGTCTTCGCGTCCAATTATTACCCCATTCTATCCTAGCAATGGAACTTC   6240
+
+flo1_s288c      4351 TGTGATTTCTTCCTCAGTAATTTCTTCCTCAGTCACTTCTTCTCTATTCA   4400
+                     ||||||||||||||||||||||||||||||||.|||||||||||||.|||
+flo1_uwops05    6241 TGTGATTTCTTCCTCAGTAATTTCTTCCTCAGACACTTCTTCTCTAGTCA   6290
+
+flo1_s288c      4401 CTTCTTCTCCAGTCATTTCTTCCTCAGTCATTTC------------TTCT   4438
+                     ||||||||||||||||||||||.|||.|||||||            ||||
+flo1_uwops05    6291 CTTCTTCTCCAgtcatttcttcttcattcatttcttcctctGTCATTTCT   6340
+
+flo1_s288c      4439 TCTACAACAACCTCCACTTCTATATTTTCTGAATCATCTAAATCATCCGT   4488
+                     ||||||||||||||||||||||||||.||||||||||.||||||||||||
+flo1_uwops05    6341 TCTACAACAACCTCCACTTCTATATTCTCTGAATCATTTAAATCATCCGT   6390
+
+flo1_s288c      4489 CATTCCAACCAGTAGTTCCACCTCTGGTTCTTCTGAGAGCGAAACGAGTT   4538
+                     |||||||||||||||||||||||||||||||||||||||||||||.||||
+flo1_uwops05    6391 CATTCCAACCAGTAGTTCCACCTCTGGTTCTTCTGAGAGCGAAACAAGTT   6440
+
+flo1_s288c      4539 CAGCTGGTTCTGTCTCTTCTTCCTCTTTTATCTCTTCTGAATCATCAAAA   4588
+                     |||||.|||||||||||||||||||||.||||||||||||||||.||||.
+flo1_uwops05    6441 CAGCTAGTTCTgtctcttcttcctcttctatCTCTTCTGAATCACCAAAG   6490
+
+flo1_s288c      4589 TCTCCTACATATTCTTCTTCATCATTACCACTTGTTACCAGTGCGACAAC   4638
+                     |   ||||||||||.||||||||||||||||.|.||||||.|||.|||||
+flo1_uwops05    6491 T---CTACATattcgtcttcatcattacCACCTATTACCACTGCAACAAC   6537
+
+flo1_s288c      4639 AAGCCAGGAAACTGCTTCTTCATTACCACCTGCTACCACTACAAAAACGA   4688
+                     ||||||||||||||||||.|||||||.|||||||||||||||||||||.|
+flo1_uwops05    6538 AAGCCAGGAAACTGCTTCATCATTACAACCTGCTACCACTACAAAAACAA   6587
+
+flo1_s288c      4689 GCGAACAAACCACTTTGGTTACCGTGACATCCTGCGAGTCTCATGTGTGC   4738
+                     |||||||||||||||||||||||||||||||||||||.||||||||||||
+flo1_uwops05    6588 GCGAACAAACCACTTTGGTTACCGTGACATCCTGCGAATCTCATGTGTGC   6637
+
+flo1_s288c      4739 ACTGAATCCATCTCCCCTGCGATTGTTTCCACAGCTACTGTTACTGTTAG   4788
+                     |||||||||||||||.||||||||||||||||||||||.|||||||||||
+flo1_uwops05    6638 ACTGAATCCATCTCCTCTGCGATTGTTTCCACAGCTACCGTTACTGTTAG   6687
+
+flo1_s288c      4789 CGGCGTCACAACAGAGTATACCACATGGTGCCCTATTTCTACTACAGAGA   4838
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+flo1_uwops05    6688 CGGCGTCACAACAGAGTATACCACATGGTGCCCTATTTCTACTACAGA--   6735
+
+flo1_s288c      4839 CAACAAAGCAAACCAAAGGGACAACAGAGCAAACCACAGAAACAACAAAA   4888
+                                        |||||||||||||||||||||   |||||||
+flo1_uwops05    6736 -------------------GACAACAGAGCAAACCACAGA---AACAAAA   6763
+
+flo1_s288c      4889 CAAACCACGGTAGTTACAATTTCTTCTTGTGAATCTGACGTATGCTCTAA   4938
+                     ||||||||.||||||||||||||||||||||||||||||||||||||.||
+flo1_uwops05    6764 CAAACCACAGTAGTtacaatttcttcttgtgaATCTGACGTATGCTCCAA   6813
+
+flo1_s288c      4939 GACTGCTTCTCCAGCCATTGTATCTACAAGCACTGCTACTATTAACGGCG   4988
+                     |||||||||||||||||||||.||||||||||||||||||||||||||||
+flo1_uwops05    6814 GACTGCTTCTCCAGCCATTGTGTCTACAAGCACTGCTACTATTAACGGCG   6863
+
+flo1_s288c      4989 TTACTACAGAATACACAACATGGTGTCCTATTTCCACCACAGAATCGAGG   5038
+                     ||||.||.||||||||||||||||||||||||||||||||||||||||.|
+flo1_uwops05    6864 TTACCACGGAATACACAACATGGTGTCCTATTTCCACCACAGAATCGAAG   6913
+
+flo1_s288c      5039 CAACAAACAACGCTAGTTACTGTTACTTCCTGCGAATCTGGTGTGTGTTC   5088
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    6914 CAACAAACTACGCTAGTTACTGTTACTTCCTGCGAATCTGGTGTGTGTTC   6963
+
+flo1_s288c      5089 CGAAACTGCTTCACCTGCCATTGTTTCGACGGCCACGGCTACTGTGAATG   5138
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    6964 CGAAACTGCTTCACCTGCCATTGTTTCGACGGCCACGGCTACTGTGAATG   7013
+
+flo1_s288c      5139 ATGTTGTTACGGTCTATCCTACATGGAGGCCACAGACTGCGAATGAAGAG   5188
+                     ||||||||||||||||||||||||||||||||||||||.||||||||||.
+flo1_uwops05    7014 ATGTTGTTACGGTCTATCCTACATGGAGGCCACAGACTACGAATGAAGAT   7063
+
+flo1_s288c      5189 TCTGTCAGCTCTAAAATGAACAGTGCTACCGGTGAGACAACAACCAATAC   5238
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+flo1_uwops05    7064 TCTGTCAGCTCTAAAATGAACAGTGCTACCAGTGAGACAACAACCAATAC   7113
+
+flo1_s288c      5239 TTTAGCTGCTGAAACGACTACCAATACTGTAGCTGCTGAGACGATTACCA   5288
+                     |.||||||||||||||||                           |||||
+flo1_uwops05    7114 TGTAGCTGCTGAAACGAC---------------------------TACCA   7136
+
+flo1_s288c      5289 ATACTGGAGCTGCTGAGACGAAAACAGTAGTCACCTCTTCGCTTTCAAGA   5338
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    7137 ATACTGGAGCTGCTGAGACGAAAACAGTAGTCACCTCTTCGCTTTCAAGA   7186
+
+flo1_s288c      5339 TCTAATCACGCTGAAACACAGACGGCTTCCGCGACCGATGTGATTGGTCA   5388
+                     |||||||||||||||||||||||||.||||||||||||.|||||||||||
+flo1_uwops05    7187 TCTAATCACGCTGAAACACAGACGGATTCCGCGACCGACGTGATTGGTCA   7236
+
+flo1_s288c      5389 CAGCAGTAGTGTTGTTTCTGTATCCGAAACTGGCAACACCAAGAGTCTAA   5438
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    7237 CAGCAGTAGTGTTGTTTCTGTATCCGAAACTGGCAACACCAAGAGTCTAA   7286
+
+flo1_s288c      5439 CAAGTTCCGGGTTGAGTACTATGTCGCAACAGCCTCGTAGCACACCAGCA   5488
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+flo1_uwops05    7287 CAAGTTCCGGGTTGAGTACTATGTCGCAACAGCCTCGTAGCACACCAGTA   7336
+
+flo1_s288c      5489 AGCAGCATGGTAGGATATAGTACAGCTTCTTTAGAAATTTCAACGTATGC   5538
+                     ||||||||||||||||.|||||||||||||||||||||||||||||||||
+flo1_uwops05    7337 AGCAGCATGGTAGGATCTAGTACAGCTTctttagaaatttcaacGTATGC   7386
+
+flo1_s288c      5539 TGGCAGTGCCAACAGCTTACTGGCCGGTAGTGGTTTAAGTGTCTTCATTG   5588
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+flo1_uwops05    7387 TGGCAGTGCCAACAGCTTACTGGCCGGTAGTGGTTTAAGTGTCTTCGTTG   7436
+
+flo1_s288c      5589 CGTCCTTATTGCTGGCAATTATTTAATAAAATTCGCGTTCTTTTTACGTA   5638
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    7437 CGTCCTTTTTGCTGGcaattatttaataaaattcGCGTTCTTTTTACGTA   7486
+
+flo1_s288c      5639 TCTGTGTATCTTTTCTTTGCTAATTATACGCTGACATGAATTATTTTTTA   5688
+                     |||||||||||||||||||||||.|||||||||||||||.||||||||||
+flo1_uwops05    7487 TCTGtgtatcttttctttgctaAATATACGCTGAcatgatttatttttta   7536
+
+flo1_s288c      5689 ACTGTTTCTCCTCCATACTTTCAAATATTCAAATTG-ACTAAATGATAAT   5737
+                     |||||||||||||||||||||||||||||||||||| |||||||||||||
+flo1_uwops05    7537 actgTTTCTCCTCCAtactttcaaatattcaaattgAACTAAATGATAAT   7586
+
+flo1_s288c      5738 TCTTGCGCTTCTTATTTTGAAAAAGTAGATATGTGTATCATAAAGAAAAC   5787
+                     |||||||||||.|||||||||||||||||||||||.||||||||||||||
+flo1_uwops05    7587 TCTTGCGCTTcctattttgaaaaagtagATATGTGCATCATAAAGAAAAc   7636
+
+flo1_s288c      5788 GTTATTATTATTGTCTTAGGCAACAAAAATCCATGAAAAGAATTTTACCG   5837
+                     ||||||.||||||||||.||||||||||||||||||||||||||||||||
+flo1_uwops05    7637 gttattgttattgtcTTGGGCAACAAAAATccatgaaaagaattttacCG   7686
+
+flo1_s288c      5838 TTATCGATATCATTGTATTTATTTTATTTATTTATTCAA---TTTTTTTT   5884
+                     ||||||||||||||||||||||||||||||||||||.||   ||||||||
+flo1_uwops05    7687 TTATCGATATCattgtatttattttatttatttatttaattttttttttt   7736
+
+flo1_s288c      5885 TTTTTGGTTTATATCCTGCAAACAACACTTCGAATTCAATTCGATATTTC   5934
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    7737 tttttgatttatATCCTGCAAACAACACTTCGAATTCAATTCGATATTTC   7786
+
+flo1_s288c      5935 ATAAGTTACAACTAACACTTATAGAAACCGATGTATGAGTACTTATTATT   5984
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+flo1_uwops05    7787 ATAAGTTACAACTAACACTTATAGAAACCGATGTATGAGTACTTATCATT   7836
+
+flo1_s288c      5985 AACGAGGAAAAATGCCCTATTTTCTTTAGCAATTAATGAACCATCGCCAA   6034
+                     |||||||||||||||||||||||.||||||||||||||||||||||||||
+flo1_uwops05    7837 AACGAGGAAAAATGCCCTATTTTGTTTAGCAATTAATGAACCATCGCCAA   7886
+
+flo1_s288c      6035 CTTTTGCTTTAACAATTATTGCCATTTTCAGCAGTACTAACGTAAGATCT   6084
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    7887 TTTTTGCTTTAACAATTATTGCCATTTTCAGCAGTACTAACGTAAGATCT   7936
+
+flo1_s288c      6085 AGTGTGGTTCGCTTAGGATGTTTTCGAGTAGAAATCTGCTGCACATGCCA   6134
+                     ||||||||||||||||||||||||.||||||||||||||||..|||||||
+flo1_uwops05    7937 AGTGTGGTTCGCTTAGGATGTTTTTGAGTAGAAATCTGCTGTGCATGCCA   7986
+
+flo1_s288c      6135 CACGCAGTACTTGAAACTTGAAATAATGGTGATAATTAGTTATTTAAAGT   6184
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    7987 CACGCAGTACTTGAAACTTGAAATAATGGTGATAATTAGTTATTTAAAGT   8036
+
+flo1_s288c      6185 ATGTTAATCTTCCTTGTTCTTTTATATTTATTTCGAATTCTTTTGCACTA   6234
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    8037 ATGTTAACCTTCcttgttcttttatatttatttcgAATTCTTTTGCACTA   8086
+
+flo1_s288c      6235 GTATTTAAAATATCAGCAGAGGTGTAAAAGTGCACCAAAATTATTGTAAA   6284
+                     ||||||||||||||||||||||.|||||||||||||||||||||||||||
+flo1_uwops05    8087 GTATTTAAAATATCAGCAGAGGCGTAAAAGTGCACCAAAATTATTGTAAA   8136
+
+flo1_s288c      6285 ACTACTTGCCCTAAAATTGATACTTCATACTTGACATATTCAAAAGGGGT   6334
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+flo1_uwops05    8137 ACTACTTGCCCTAAAATTGATACTTCATACTCGACATATTCAAAAGGGGT   8186
+
+flo1_s288c      6335 CCAAGTATAGATGCATCAAAAAAA----AAAATTATCCGATGATGAGCAA   6380
+                     ||||||||||||||||.|||||||    ||||||||||||||||||||||
+flo1_uwops05    8187 CCAAGTATAGATgcatgaaaaaaaaaagaaaattatcCGATGATGAGCAA   8236
+
+flo1_s288c      6381 ATGGTAGCTTTTCGTT-CCCAGGAAGTGTAGTAGTTCCATGAAGTCTAAT   6429
+                     |||||.|||||||||| |||||||||||||||||||||||||||||||||
+flo1_uwops05    8237 ATGGTGGCTTTTCGTTCCCCAGGAAGTGTAGTAGTTCCATGAAGTCTAAT   8286
+
+flo1_s288c      6430 GAGACTTTGGAAAAAGGTTTGTCACGAGCACCTAACTATTGTATTTTGGA   6479
+                     ||.|||||||||||||||||||||||||||||||||||.|||||||||||
+flo1_uwops05    8287 GACACTTTGGAAAAAGGTTTGTCACGAGCACCTAACTACTgtattttgga   8336
+
+flo1_s288c      6480 ATTTTGATAAACTTCAAAACGGGAACGAAGTGTTAAACTTAGATGCGGTT   6529
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+flo1_uwops05    8337 attttgaTAAACTTCAAAACGGGAACGAAGTGTTAAACTTAGATGCGGTT   8386
+
+flo1_s288c      6530 GATTTAAGCTTTAAAAGAGGAAAATAATGACTGATGATAAGAAGTCAACA   6579
+                     |||||||||||||||||||||||||||||||||||||||||||.||||||
+flo1_uwops05    8387 GATTTAAGCTttaaaagaggaaaataatGACTGATGATAAGAATTCAACA   8436
+
+flo1_s288c      6580 ACGATTCAAAGCAGGTGAATTTCCATTACGTTTCG   6614
+                     |||||||||||||||||||||||            
+flo1_uwops05    8437 ACGATTCAAAGCAGGTGAATTTC------------   8459
+
+
+#---------------------------------------
+#---------------------------------------

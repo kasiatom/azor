@@ -1,0 +1,36 @@
+########################################
+# Program: etandem
+# Rundate: Thu 21 Mar 2024 18:11:15
+# Commandline: etandem
+#    -sequence flo9_uwops05.fa
+#    -minrepeat 2
+#    -maxrepeat 100
+#    -outfile flo9_uwops05_tr.txt
+#    -mismatch
+# Report_format: table
+# Report_file: flo9_uwops05_tr.txt
+########################################
+
+#=======================================
+#
+# Sequence: flo9_uwops05     from: 1   to: 7661
+# HitCount: 6
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: Yes
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                       
+   2958    5873       +     433     27    108     57.9 gtggtagtagttgtgacagtactggta                     
+   1879    2070       +     102     48      4     89.1 aagcagtttcctgacttgttgttgcagtggtaacaggtggtaatgatg
+   2231    2365       +      80     15      9     85.2 tgaagaagaaatgac                                 
+   1299    1379       +      26     27      3     82.7 gttgtcgtctcagcagctgcagtattg                     
+   1705    1788       +      23     21      4     76.2 ctgtggtatactctgttgtcc                           
+   2098    2223       +      22     18      7     65.9 cagaagagatagaagtgg                              
+
+#---------------------------------------
+#---------------------------------------

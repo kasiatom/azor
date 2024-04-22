@@ -1,0 +1,29 @@
+########################################
+# Program: etandem
+# Rundate: Fri 22 Mar 2024 11:47:06
+# Commandline: etandem
+#    -sequence flo1_s288c.fa
+#    -minrepeat 90
+#    -maxrepeat 100
+#    -outfile out.txt
+# Report_format: table
+# Report_file: out.txt
+########################################
+
+#=======================================
+#
+# Sequence: flo1_s288c     from: 1   to: 6614
+# HitCount: 0
+#
+# Threshold: 20
+# Minrepeat: 90
+# Maxrepeat: 100
+# Mismatch: No
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus
+
+#---------------------------------------
+#---------------------------------------

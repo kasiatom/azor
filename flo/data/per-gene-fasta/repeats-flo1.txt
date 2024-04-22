@@ -1,0 +1,103 @@
+536 | JULY 2004 | VOLUME 2 www.nature.com/reviews/micro
+R E V I E W S
+versions of one of the adhesins. Slippage during repli-
+cation would have the same effect. Mechanisms that
+are similar to these have been proposed for variations
+in MINISATELLITE regions in the S. cerevisiae genome that
+occur during mitosis 46 and meiosis 47 . The loss of
+repeated motifs in one of the FLO genes has been
+associated with loss of flocculation in strains of S.
+cerevisiae that that are used in brewing, indicating that
+the number of repeats correlates with the strength of
+cell–cell adhesion48,49
+.
+In C. albicans, the evidence for such intragenic
+recombination events is compelling. In strain SC5314,
+the adhesin genes ALS1, ALS5 and ALS9 are present in
+a long form on one chromosome and in a short form
+on its homologue. The most notable difference
+between the long and short forms is the number of
+repeated nucleotide motifs: the two forms of ALS1 dif-
+fer by 12 repeats, those of ALS5 by 1 repeat and those
+of ALS9 by 3 repeats26. All of the long forms are linked
+on the same homologue. The variation in the number
+of repeats means that although C. albicans has three
+ALS genes on chromosome 6, this region can specify
+motif can be seen in DNA motif 1 of FLO10 (FIG. 5) .
+However, other motifs, such as motif 4, are not only
+highly conserved at the amino-acid level, but also at the
+nucleotide level. The simplest explanation for the con-
+servation of the nucleotide motifs is that these
+sequences provide sites for homologous recombina-
+tion, and that these exchange events provide some
+selective advantage. New adhesins might, for example,
+confer greater adhesion to solid surfaces or new adhe-
+sion properties that enable attachment to different sur-
+faces or cells.
+Recombination within adhesin genes. The motifs
+within each adhesin gene, their presence in multiple
+copies and the chromosomal arrangement of duplicated
+genes provide the basis for a constantly shifting reper-
+toire of cell-surface molecules (FIG. 6) . Recombination
+between the tandem repeats of a motif within a single
+adhesin gene can provide an inexhaustible source of
+diversity. UNEQUAL CROSSOVER between homologues in
+a diploid cell, or during the G2 phase of the cell cycle
+in a haploid cell, might produce larger and smaller
+UNEQUAL CROSSOVER
+A recombination event between
+DNA sequences that are not
+correctly aligned. This often
+occurs in repetitive sequences
+when the repeat units (DNA
+motifs) are paired out of register.
+MINISATELLITES
+Also known as variable-number
+tandem repeats. These are DNA
+sequences of variable length that
+consist of many tandemly
+repeated DNA motifs of
+5–35 base pairs. Minisatellite
+regions are unstable and often
+expand or contract during
+meiosis and mitosis, making
+them good targets for
+genotyping.
+FLO1 2206–2297
+FLO9 2206–2297
+FLO1 1126–1218
+FLO1 1261–1353
+FLO1 1396–1488
+FLO9 1126–1218
+FLO9 1261–1353
+FLO9 1396–1488
+FLO1 991–1083
+FLO9 991–1083
+FLO1 1531–1623
+FLO9 1531–1623
+FLO1 2071–2163
+FLO9 2071–2163
+FLO1 1801–1893
+FLO1 1936–2028
+FLO1 1666–1758
+FLO9 1801–1893
+FLO9 1936–2028
+FLO9 1666–1758
+FLO1 2464–2567
+FLO1 2599–2702
+FLO1 2329–2432
+FLO9 2329–2432
+FLO1 3004–3107
+FLO1 2869–2972
+FLO5 1789–1892
+FLO5 1249–1352
+FLO5 1519–1622
+FLO9 2464–2567
+FLO5 1114–1217
+FLO5 1654–1757
+FLO5 979–1082
+FLO5 1384–1487
+FLO5 844–948
+FLO1 844–948
+FLO9 844–948
+FLO1 2734–2837

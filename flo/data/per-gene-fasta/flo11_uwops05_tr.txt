@@ -1,0 +1,32 @@
+########################################
+# Program: etandem
+# Rundate: Thu 21 Mar 2024 18:11:10
+# Commandline: etandem
+#    -sequence flo11_uwops05.fa
+#    -minrepeat 2
+#    -maxrepeat 100
+#    -outfile flo11_uwops05_tr.txt
+#    -mismatch
+# Report_format: table
+# Report_file: flo11_uwops05_tr.txt
+########################################
+
+#=======================================
+#
+# Sequence: flo11_uwops05     from: 1   to: 5282
+# HitCount: 2
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: Yes
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus         
+   2366    3661       +     366     18     72     64.8 agtggttgcagtagtaga
+   1474    1713       +      22     12     20     57.1 tggttgcagcag      
+
+#---------------------------------------
+#---------------------------------------

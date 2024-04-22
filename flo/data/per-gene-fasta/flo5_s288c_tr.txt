@@ -1,0 +1,34 @@
+########################################
+# Program: etandem
+# Rundate: Thu 21 Mar 2024 18:11:12
+# Commandline: etandem
+#    -sequence flo5_s288c.fa
+#    -minrepeat 2
+#    -maxrepeat 100
+#    -outfile flo5_s288c_tr.txt
+#    -mismatch
+# Report_format: table
+# Report_file: flo5_s288c_tr.txt
+########################################
+
+#=======================================
+#
+# Sequence: flo5_s288c     from: 1   to: 5228
+# HitCount: 4
+#
+# Threshold: 20
+# Minrepeat: 2
+# Maxrepeat: 100
+# Mismatch: Yes
+# Uniform: No
+#
+#=======================================
+
+  Start     End  Strand   Score   Size  Count Identity Consensus                                       
+   1921    2784       +      95     27     32     57.1 tactgccagtgtcattactactaccac                     
+   2994    3083       +      49     15      6     85.6 cttcagtcatttctt                                 
+   3470    3574       +      44     21      5     81.0 aagcaaaccacagagacaaca                           
+   3249    3344       +      24     48      2     87.5 ctgcttcttcattaccacctgctaccactacaaaaacgagcgaacaaa
+
+#---------------------------------------
+#---------------------------------------
