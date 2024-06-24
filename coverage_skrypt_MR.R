@@ -1,4 +1,4 @@
-setwd("C:/Users/mremb/OneDrive/Desktop/stuff/STUDIA KURWA/MGR/depth")
+setwd("C:/Users/mremb/OneDrive/Desktop/stuff/STUDIA/MGR/depth")
 
 library(dplyr)
 library(ggplot2)
