@@ -9,7 +9,7 @@ library (dplyr)
 library(ggplot2)
 library(stringr)
 
-#fpath = "C:/Users/mremb/OneDrive/Desktop/stuff/STUDIA KURWA/MGR/tabelki"
+#fpath = "C:/Users/mremb/OneDrive/Desktop/stuff/STUDIA/MGR/tabelki"
 dfnames = list.files(path = ".", pattern = "*.csv")
 
 #zczytywanie wszystkich plików
@@ -64,7 +64,7 @@ for (x in dfnames) {
 		value_alt = g$FORM.A0 / g$FORM.DP
 		
 		#recursive plot files naming
-		#mypath = file.path("C:/Users/mremb/OneDrive/Desktop/stuff/STUDIA KURWA/MGR/ploty",paste("plot_p",a[x],"_chr",b[x],".png",sep = ""))
+		#mypath = file.path("C:/Users/mremb/OneDrive/Desktop/stuff/STUDIA/MGR/ploty",paste("plot_p",a[x],"_chr",b[x],".png",sep = ""))
 		## minor allele
 		#file_name = paste("plot_", sample, "_", j, "_minor_allele", ".png", sep = "")
 		#png(file = file_name)

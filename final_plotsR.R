@@ -3,7 +3,7 @@
 ## używałam plików takich, jak są na githubie, a wiec bez nagłówka => dodaję nazwy zmiennych
 ## tam tez były jakies nadmiarowe taby, żeby sie ich pozbyć potrzebowałam dodatkowego pakietu "stringr"
 
-setwd("C:/Users/mremb/OneDrive/Desktop/stuff/STUDIA KURWA/MGR/tabelki")
+setwd("C:/Users/mremb/OneDrive/Desktop/stuff/STUDIA/MGR/tabelki")
 getwd()
 
 library(dplyr)

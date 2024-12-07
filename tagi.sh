@@ -15,7 +15,7 @@ do
    echo mapuje "$ID"
    
 
-   # wymyślić tak, żeby ID było sensowne a nie długie jak cholera
+   # wymyślić tak, żeby ID było sensowne
 
    RG_ID="$ID"
    RG_PU="$RG_ID"".""$ID"
